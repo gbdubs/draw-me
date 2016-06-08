@@ -105,6 +105,8 @@ public class InheritableProperties {
 			String selector = String.format(".dm-border-color-%s", ColorUtility.toName(ae.borderColor));
 			rules.add(new CssProp(selector, "border-color", ColorUtility.toHexCode(ae.borderColor)));
 			
+			rules.add(new CssProp(selector+":before", "background", ColorUtility.toHexCode(ae.borderColor)));
+			rules.add(new CssProp(selector+" .dm:before", "background", ColorUtility.toHexCode(ae.borderColor)));
 			rules.add(new CssProp(selector+":after", "background", ColorUtility.toHexCode(ae.borderColor)));
 			rules.add(new CssProp(selector+" .dm:after", "background", ColorUtility.toHexCode(ae.borderColor)));
 		}

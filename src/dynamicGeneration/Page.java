@@ -19,6 +19,7 @@ public class Page {
 		List<CssProp> props = GeneralProperties.all();
 		props.addAll(InheritableProperties.all(this));
 		
+		
 		String css = CssProp.allPropsToCss(props);
 		return css;
 	}
