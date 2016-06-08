@@ -3,6 +3,8 @@ package dynamicGeneration;
 import java.util.ArrayList;
 import java.util.List;
 
+import dynamicGeneration.structures.CssProp;
+
 public class GeneralProperties {
 
 	public static List<CssProp> all(){

@@ -1,4 +1,4 @@
-import dynamicGeneration.Minimization;
+import dynamicGeneration.util.Minimization;
 
 
 public class DelayRuleGenerator {

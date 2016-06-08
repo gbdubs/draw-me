@@ -4,7 +4,7 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.HashSet;
 
-import dynamicGeneration.Minimization;
+import dynamicGeneration.util.Minimization;
 
 
 public class MasterGenerator {

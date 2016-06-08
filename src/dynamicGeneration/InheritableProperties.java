@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import dynamicGeneration.structures.AnimatedElement;
+import dynamicGeneration.structures.CssProp;
+import dynamicGeneration.structures.Page;
+import dynamicGeneration.util.ColorUtility;
+import dynamicGeneration.util.Filter;
+
 public class InheritableProperties {
 
 	private static String doubleToString(double d){

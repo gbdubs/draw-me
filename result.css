@@ -1,0 +1,224 @@
+MODIFIED EDGES: brtlb
+bottom 1.0
+right 33.65
+HERE
+right 33.66
+top 66.32
+HERE
+top 66.33
+left 98.99
+HERE
+.dm {
+	animation-delay: inherit;
+	animation-direction: normal;
+	animation-duration: inherit;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-timing-function: inherit;
+	border-color: inherit;
+	border-style: inherit;
+	border-width: inherit;
+	position: relative;
+}
+
+
+.dm-animation-timing-linear {
+}
+
+
+.dm-border-color-black .dm:after {
+}
+
+
+.dm-border-color-black .dm:before {
+}
+
+
+.dm-border-color-black {
+}
+
+
+.dm-border-color-black:after {
+}
+
+
+.dm-border-color-black:before {
+}
+
+
+.dm-border-style-solid {
+}
+
+
+.dm-border-width-1 {
+}
+
+
+.dm-delay-0-00 {
+}
+
+
+.dm-duration-1000-00 {
+}
+
+
+.dm-wrapper {
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+}
+
+
+.dm:after {
+	animation-delay: inherit;
+	animation-direction: normal;
+	animation-duration: inherit;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-timing-function: inherit;
+	content: '';
+	display: block;
+	position: absolute;
+}
+
+
+.dm:before {
+	animation-delay: inherit;
+	animation-direction: normal;
+	animation-duration: inherit;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-timing-function: inherit;
+	border-color: inherit;
+	border-style: inherit;
+	border-width: inherit;
+	content: '';
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+
+
+@keyframes dm-ccw-rtl-1-1-FFFFFF-FFFFFF-FFFFFF-000000 {
+	0.00% {
+		background-color: #FFFFFF;
+		border-bottom-color:: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: #FFFFFF;
+	}
+	32.66% {
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+	}
+	32.67%, 65.32% {
+		border-right-color: #000000;
+		border-top-color: transparent;
+	}
+	65.33%, 97.99% {
+		border-left-color: transparent;
+		border-top-color: #000000;
+	}
+	70.00% {
+		background-color: #FFFFFF;
+		color: #FFFFFF;
+	}
+	98.00% {
+		border-left-color: #000000;
+		border-right-color: #000000;
+		border-top-color: #000000;
+	}
+	100.00% {
+		background-color: #FFFFFF;
+		border-bottom-color:: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-ccw-rtl-1-1-FFFFFF-FFFFFF-FFFFFF-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: -1px;
+		display: block;
+		height: 1px;
+		left: auto;
+		right: -1px;
+		top: auto;
+		width: 1px;
+	}
+}
+
+@keyframes dm-ccw-rtl-1-1-FFFFFF-FFFFFF-FFFFFF-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 1px 1px 0 0;
+		bottom: -1px;
+		height: 0;
+		left: auto;
+		right: -1px;
+		top: auto;
+		width: 0;
+	}
+	33.65% {
+		bottom: -1px;
+		height: 100%;
+		left: auto;
+		right: -1px;
+		top: auto;
+		width: 0;
+	}
+	33.66% {
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -1px;
+		top: -1px;
+		width: 0;
+	}
+	66.32% {
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -1px;
+		top: -1px;
+		width: 100%;
+	}
+	66.33% {
+		bottom: auto;
+		height: 0;
+		left: -1px;
+		right: auto;
+		top: -1px;
+		width: 0;
+	}
+	98.99% {
+		border-width: 1px 1px 0 0;
+		bottom: auto;
+		height: 100%;
+		left: -1px;
+		right: auto;
+		top: -1px;
+		width: 0;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: -1px;
+		height: 1px;
+		left: -1px;
+		right: auto;
+		top: auto;
+		width: 1px;
+	}
+}
+
+
