@@ -12,7 +12,7 @@ public class MasterGenerator {
 		return String.format("%.2fs", d);
 	}
 	
-	public static String generateRules(String rotationDirection, String edges, double perEdgeDuration, int borderWidth, String borderStyle, String borderColor, String animationStyle){
+	public static String generateRules(String rotationDirection, String edges, double duration, int borderWidth, String borderStyle, String borderColor, String animationStyle){
 		String parentSelector = "";
 		if (!(borderWidth == 1)){
 			parentSelector += ".dm-border-width-"+borderWidth;
@@ -36,15 +36,15 @@ public class MasterGenerator {
 		
 		String result = String.format(
 				"%s.%s { animation: %s %s %s; }\n\n", 
-				parentSelector, selector, keyframesName, generateDuration(edges, perEdgeDuration), animationStyle
+				parentSelector, selector, keyframesName, generateDuration(edges, duration), animationStyle
 		);
 		result += String.format(
 				"%s.%s:before { animation: %s-before %s %s; }\n\n", 
-				parentSelector, selector, keyframesName, generateDuration(edges, perEdgeDuration), animationStyle
+				parentSelector, selector, keyframesName, generateDuration(edges, duration), animationStyle
 		);
 		result += String.format(
 				"%s.%s:after { animation: %s-after %s %s; }\n\n", 
-				parentSelector, selector, keyframesName, generateDuration(edges, perEdgeDuration), animationStyle
+				parentSelector, selector, keyframesName, generateDuration(edges, duration), animationStyle
 		);
 		result += GenerateElementBeforeKeyframes.generate(rotationDirection, edges, borderWidth, borderStyle, borderColor) + "\n";
 		result += GenerateElementAfterKeyframes.generate(rotationDirection, edges, borderWidth, borderStyle, borderColor) + "\n";

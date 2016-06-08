@@ -1,7 +1,3 @@
-import java.io.IOException;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -12,35 +8,6 @@ public class CodeAnalyzer {
 	
 	public static double timeToAnimateEachEdge;
 	
-	public static void main(String[] args) throws IOException{
-		String filename = "../../Commentary/rotation/index.html";
-		String contents = readFile(filename, Charset.defaultCharset());
-		System.out.println(Tools.minimize(analyzeAndSelectRelevantCss(contents, .5)));
-	}
-	
-	static String readFile(String path, Charset encoding) throws IOException {
-		byte[] encoded = Files.readAllBytes(Paths.get(path));
-		return new String(encoded, encoding);
-	}
-	
-	public static String analyzeAndSelectRelevantCss(String original, double timeToAnimatePerEdge){
-		StringBuilder result = new StringBuilder();
-		System.out.println("HERE");
-		result.append(base());
-		Set<String> colors = findAllUsedColors(original);
-		System.out.println("HERE");
-		Set<String> blocks = findAllUsedBlocks(original);
-		System.out.println("HERE");
-		result.append(createColoredBlocks(blocks, colors, original));
-		System.out.println("HERE");
-		result.append(createDelays(original));
-		System.out.println("HERE");
-		result.append(createBorderStyleStyles(findAllUsedStyles(original)));
-		System.out.println("HERE");
-		result.append(createWidthStyles(findAllUsedWidths(original)));
-		System.out.println("HERE");
-		return result.toString();
-	}
 	
 	public static Set<String> findAllUsedStyles(String original){
 		String lookingFor = "dm-border-style-";
