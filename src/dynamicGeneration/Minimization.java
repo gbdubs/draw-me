@@ -1,5 +1,6 @@
+package dynamicGeneration;
 
-public class Tools {
+public class Minimization {
 
 	public static String minimize(String s){
 		s = s.replaceAll("\n", "");

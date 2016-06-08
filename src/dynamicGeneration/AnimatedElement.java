@@ -8,8 +8,8 @@ public class AnimatedElement {
 	
 	String rotationDirection;
 	String edges;
-	int width;
-	String style;
+	int borderWidth;
+	String borderStyle;
 	String borderColor;
 	double delay;
 	double duration;
@@ -42,20 +42,20 @@ public class AnimatedElement {
 		}
 		
 		try {
-			width = Integer.parseInt(blocks[2]);
-			if (width <= 0){
-				throw new RuntimeException(String.format("Border Width Must Be Postive: [%d]", width));
+			borderWidth = Integer.parseInt(blocks[2]);
+			if (borderWidth <= 0){
+				throw new RuntimeException(String.format("Border Width Must Be Postive: [%d]", borderWidth));
 			}
 		} catch (java.lang.NumberFormatException nfe){
 			throw new RuntimeException(String.format("The width provided was not a parseable integer: [%s]", blocks[2]));
 		}
 		
-		style = blocks[3];
-		if (!validBorderStyles.contains(style)){
+		borderStyle = blocks[3];
+		if (!validBorderStyles.contains(borderStyle)){
 			throw new RuntimeException(String.format("The style provided is not a CSS supported type for border-style: [%s]", blocks[3]));
 		}
 		
-		borderColor = ColorUtility.toDestemmedHex(blocks[4]);
+		borderColor = ColorUtility.toHex(blocks[4]);
 		if (borderColor == null){
 			throw new RuntimeException(String.format("The border color provided is neither a default HTML color, nor a HEX code: [%s]", blocks[4]));
 		}
@@ -82,22 +82,22 @@ public class AnimatedElement {
 			throw new RuntimeException(String.format("The animation timing function provided was not supported or not recognized: [%s]", blocks[7]));
 		}
 		
-		fadeBackgroundFromColor = ColorUtility.toDestemmedHex(blocks[8]);
+		fadeBackgroundFromColor = ColorUtility.toHex(blocks[8]);
 		if (fadeBackgroundFromColor == null){
 			throw new RuntimeException(String.format("The behind color provided is neither a default HTML color, nor a HEX code: [%s]", blocks[8]));
 		}
 		
-		fadeBackgroundToColor = ColorUtility.toDestemmedHex(blocks[9]);
+		fadeBackgroundToColor = ColorUtility.toHex(blocks[9]);
 		if (fadeBackgroundToColor == null){
 			throw new RuntimeException(String.format("The background color provided is neither a default HTML color, nor a HEX code: [%s]", blocks[9]));
 		}
 		
-		fadeTextFromColor = ColorUtility.toDestemmedHex(blocks[10]);
+		fadeTextFromColor = ColorUtility.toHex(blocks[10]);
 		if (fadeTextFromColor == null){
 			throw new RuntimeException(String.format("The text color provided is neither a default HTML color, nor a HEX code: [%s]", blocks[10]));
 		}
 		
-		fadeTextToColor = ColorUtility.toDestemmedHex(blocks[11]);
+		fadeTextToColor = ColorUtility.toHex(blocks[11]);
 		if (fadeTextToColor == null){
 			throw new RuntimeException(String.format("The text color provided is neither a default HTML color, nor a HEX code: [%s]", blocks[11]));
 		}

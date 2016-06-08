@@ -1,3 +1,5 @@
+import dynamicGeneration.Minimization;
+
 
 public class DelayRuleGenerator {
 
@@ -20,7 +22,7 @@ public class DelayRuleGenerator {
 	}
 	
 	public static void main(String[] args){
-		System.out.println(Tools.minimize(makeKitchenSinkDelay()));
+		System.out.println(Minimization.minimize(makeKitchenSinkDelay()));
 	}
 	
 }

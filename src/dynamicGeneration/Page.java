@@ -15,6 +15,17 @@ public class Page {
 		}
 	}
 	
+	public String generateCss(){
+		List<CssProp> props = GeneralProperties.all();
+		props.addAll(InheritableProperties.all(this));
+		
+		String css = CssProp.allPropsToCss(props);
+		return css;
+	}
 	
+	public String generateMinimalCss(){
+		String css = generateCss();
+		return Minimization.minimize(css);
+	}
 	
 }

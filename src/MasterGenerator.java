@@ -4,6 +4,8 @@ import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.HashSet;
 
+import dynamicGeneration.Minimization;
+
 
 public class MasterGenerator {
 
@@ -173,7 +175,7 @@ public class MasterGenerator {
 			pw.print(s);
 			pw.close();
 			f = new File("output.min.css");
-			s = Tools.minimize(s);
+			s = Minimization.minimize(s);
 			pw = new PrintWriter(f);
 			pw.print(s);
 			pw.close();
