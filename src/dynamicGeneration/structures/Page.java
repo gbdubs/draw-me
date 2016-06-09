@@ -45,17 +45,19 @@ public class Page {
 		props.addAll(InheritableProperties.all(this));
 
 		props.addAll(AnimationSelectorProperties.all(this));
-		
+
 		List<KeyFrames> keyframes = KeyframesGenerator.all(this);
 		
 		List<CssProp> usefulProps = new ArrayList<CssProp>();
 		for (CssProp cp : props){
+			System.out.print(cp.selector + " - ");
 			if (selectorIsHelpful(cp.selector)){
 				usefulProps.add(cp);
+				System.out.println(" FOUND!");
 			}
+			System.out.println(" NOT FOUND!");
 		}
 
-		System.out.printf("PROPS SIZE %d\n", usefulProps.size());
 		String propCss = CssProp.allPropsToCss(usefulProps);
 		String keyframeCss = KeyFrames.keyframesToCSS(keyframes);
 		

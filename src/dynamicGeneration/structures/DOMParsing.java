@@ -1,13 +1,10 @@
 package dynamicGeneration.structures;
 
-import static jodd.jerry.Jerry.jerry;
-
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
 import jodd.jerry.Jerry;
-import dynamicGeneration.Main;
 
 public class DOMParsing {
 
@@ -27,12 +24,9 @@ public class DOMParsing {
 			sb.append("\n");
 		}
 
+		System.out.println(sb.toString().trim());
+		
 		return sb.toString().trim();
-	}
-
-	public static void main(String[] args){
-		Jerry doc = jerry(Main.htmlPersonal);
-		findAnimatedElementsDefinition(doc);
 	}
 
 	public static boolean reachedTheTop(Jerry element){

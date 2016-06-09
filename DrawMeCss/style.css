@@ -1,0 +1,43 @@
+.bottom-bracket{
+  width: 200px;
+  height: 70px;
+  display: inline-block;
+  margin: 10px;
+}
+.top-bracket{
+  width: 200px;
+  height: 70px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.bracket-wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.bracket-wrapper > div {
+  display: inline-block;
+  position: absolute;
+}
+
+.top-brackets-1{
+  top: 0;
+  left: 0;
+}
+
+.bottom-brackets-1{
+  top: 120px
+}
+  
+.top-brackets-2{
+  top: 100px;
+  left: -120px;
+}
+
+.bottom-brackets-2{
+  top: 220px;
+  left: -120px
+}
