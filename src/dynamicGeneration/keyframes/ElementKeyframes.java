@@ -36,7 +36,7 @@ public class ElementKeyframes {
 		int denom = edges.length();
 		String borderColor = ColorUtility.toHexCode(ae.borderColor);
 		
-		String keyframesName = KeyFrames.keyframesName(ae);
+		String keyframesName = KeyFrames.elementKeyframesName(ae);
 		KeyFrames frames = new KeyFrames(keyframesName);
 		
 		if (ae.shouldFade){

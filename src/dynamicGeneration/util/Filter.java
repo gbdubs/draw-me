@@ -8,47 +8,71 @@ import dynamicGeneration.structures.AnimatedElement;
 import dynamicGeneration.structures.Page;
 
 public class Filter {
-	public static class Delay implements Comparator<AnimatedElement>{
-		@Override
-		public int compare(AnimatedElement a, AnimatedElement b) {
-			return Double.compare(a.delay, b.delay);
-		}
-	}
 	
-	public static class Duration implements Comparator<AnimatedElement>{
-		@Override
-		public int compare(AnimatedElement a, AnimatedElement b) {
-			return Double.compare(a.delay, b.delay);
-		}
-	}
-	
-	public static class BorderColor implements Comparator<AnimatedElement>{
-		@Override
-		public int compare(AnimatedElement a, AnimatedElement b) {
-			return a.borderColor.compareTo(b.borderColor);
-		}
-	}
-	
-	public static class BorderWidth implements Comparator<AnimatedElement>{
-		@Override
-		public int compare(AnimatedElement a, AnimatedElement b) {
-			return Integer.compare(a.borderWidth, b.borderWidth);
-		}
-	}
-	
-	public static class BorderStyle implements Comparator<AnimatedElement>{
-		@Override
-		public int compare(AnimatedElement a, AnimatedElement b) {
-			return a.borderStyle.compareTo(b.borderStyle);
-		}
-	}
-	
-	public static Set<AnimatedElement> by(Comparator<AnimatedElement> comparator, Page p){
-		Set<AnimatedElement> result = new TreeSet<AnimatedElement>(new Duration());
-		for (AnimatedElement ae : p.elements){
-			result.add(ae);
-		}
+	public static Set<AnimatedElement> byBorderColor(Page p){
+		Set<AnimatedElement> result = new TreeSet<AnimatedElement>(new Comparator<AnimatedElement>(){
+			@Override
+			public int compare(AnimatedElement a, AnimatedElement b) {
+				return a.borderColor.compareTo(b.borderColor);
+			}
+		});
+		result.addAll(p.elements);
 		return result;
 	}
-}
 
+	public static Set<AnimatedElement> byBorderStyle(Page p) {
+		Set<AnimatedElement> result = new TreeSet<AnimatedElement>(new Comparator<AnimatedElement>(){
+			@Override
+			public int compare(AnimatedElement a, AnimatedElement b) {
+				return a.borderStyle.compareTo(b.borderStyle);
+			}
+		});
+		result.addAll(p.elements);
+		return result;
+	}
+
+	public static Set<AnimatedElement> byBorderWidth(Page p) {
+		Set<AnimatedElement> result = new TreeSet<AnimatedElement>(new Comparator<AnimatedElement>(){
+			@Override
+			public int compare(AnimatedElement a, AnimatedElement b) {
+				return Integer.compare(a.borderWidth, b.borderWidth);
+			}
+		});
+		result.addAll(p.elements);
+		return result;
+	}
+
+	public static Set<AnimatedElement> byTimingFunction(Page p) {
+		Set<AnimatedElement> result = new TreeSet<AnimatedElement>(new Comparator<AnimatedElement>(){
+			@Override
+			public int compare(AnimatedElement a, AnimatedElement b) {
+				return a.animationTiming.compareTo(b.animationTiming);
+			}
+		});
+		result.addAll(p.elements);
+		return result;
+	}
+
+	public static Set<AnimatedElement> byDelay(Page p) {
+		Set<AnimatedElement> result = new TreeSet<AnimatedElement>(new Comparator<AnimatedElement>(){
+			@Override
+			public int compare(AnimatedElement a, AnimatedElement b) {
+				return Double.compare(a.delay, b.delay);
+			}
+		});
+		result.addAll(p.elements);
+		return result;
+	}
+
+	public static Set<AnimatedElement> byDuration(Page p) {
+		Set<AnimatedElement> result = new TreeSet<AnimatedElement>(new Comparator<AnimatedElement>(){
+			@Override
+			public int compare(AnimatedElement a, AnimatedElement b) {
+				return Double.compare(a.delay, b.delay);
+			}
+		});
+		result.addAll(p.elements);
+		return result;
+	}
+
+}

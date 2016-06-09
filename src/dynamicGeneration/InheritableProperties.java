@@ -43,15 +43,14 @@ public class InheritableProperties {
 		rules.add(new CssProp(".dm:before", "animation-duration", "inherit"));
 		rules.add(new CssProp(".dm:after", "animation-duration", "inherit"));
 		
-		Set<AnimatedElement> uniqueDurations = Filter.by(new Filter.Duration(), p);
+		Set<AnimatedElement> uniqueDurations = Filter.byDuration(p);
 		
 		for (AnimatedElement ae : uniqueDurations){
-			if (ae.duration != 1){
-				String selector = String.format(".dm-duration-%s", doubleToString(ae.duration));
-				String duration = String.format("%.2fs", ae.duration);
-				rules.add(new CssProp(selector+".dm", "animation-duration", duration));
-				rules.add(new CssProp(selector+" .dm", "animation-duration", duration));
-			}
+			
+			String selector = String.format(".dm-duration-%s", doubleToString(ae.duration));
+			String duration = String.format("%.2fs", ae.duration);
+			rules.add(new CssProp(selector+" .dm", "animation-duration", duration));
+			rules.add(new CssProp("div"+selector+".dm", "animation-duration", duration));
 		}
 		
 		return rules;
@@ -64,15 +63,19 @@ public class InheritableProperties {
 		rules.add(new CssProp(".dm:before", "animation-delay", "inherit"));
 		rules.add(new CssProp(".dm:after", "animation-delay", "inherit"));
 		
-		Set<AnimatedElement> uniqueDelays = Filter.by(new Filter.Delay(), p);
+		Set<AnimatedElement> uniqueDelays = Filter.byDelay(p);
+		
+		for (AnimatedElement ae : uniqueDelays){
+			String selector = String.format(".dm-delay-%s", doubleToString(ae.delay));
+			String delay = String.format("%.2fs", ae.delay);
+			rules.add(new CssProp(selector+" .dm", "animation-delay", delay));
+		}
 		
 		for (AnimatedElement ae : uniqueDelays){
 			String selector = String.format(".dm-delay-%s", doubleToString(ae.delay));
 			String delay = String.format("%.2fs", ae.delay);
 			rules.add(new CssProp(selector+".dm", "animation-delay", delay));
-			rules.add(new CssProp(selector+" .dm", "animation-delay", delay));
 		}
-		
 		return rules;
 	}
 	
@@ -84,7 +87,7 @@ public class InheritableProperties {
 		rules.add(new CssProp(".dm:before", "animation-timing-function", "inherit"));
 		rules.add(new CssProp(".dm:after", "animation-timing-function", "inherit"));
 		
-		Set<AnimatedElement> uniqueDelays = Filter.by(new Filter.Delay(), p);
+		Set<AnimatedElement> uniqueDelays = Filter.byTimingFunction(p);
 		
 		for (AnimatedElement ae : uniqueDelays){
 			String selector = String.format(".dm-animation-timing-%s", ae.animationTiming);
@@ -101,10 +104,12 @@ public class InheritableProperties {
 		rules.add(new CssProp(".dm", "border-color", "black"));
 		rules.add(new CssProp(".dm:before", "border-color", "inherit"));
 		
-		Set<AnimatedElement> uniqueColors = Filter.by(new Filter.BorderColor(), p);
+		System.out.println("CALLED");
+		Set<AnimatedElement> uniqueColors = Filter.byBorderColor(p);
 		
 		for (AnimatedElement ae : uniqueColors){
 			String selector = String.format(".dm-border-color-%s", ColorUtility.toName(ae.borderColor));
+			System.out.println(selector);
 			rules.add(new CssProp(selector, "border-color", ColorUtility.toHexCode(ae.borderColor)));
 			rules.add(new CssProp(selector+ " .dm", "border-color", ColorUtility.toHexCode(ae.borderColor)));
 			
@@ -123,7 +128,7 @@ public class InheritableProperties {
 		rules.add(new CssProp(".dm", "border-width", "1px"));
 		rules.add(new CssProp(".dm:before", "border-width", "inherit"));
 		
-		Set<AnimatedElement> uniqueWidths = Filter.by(new Filter.BorderWidth(), p);
+		Set<AnimatedElement> uniqueWidths = Filter.byBorderWidth(p);
 		
 		for (AnimatedElement ae : uniqueWidths){
 			String selector = String.format(".dm-border-width-%d", ae.borderWidth);
@@ -140,7 +145,7 @@ public class InheritableProperties {
 		rules.add(new CssProp(".dm", "border-style", "solid"));
 		rules.add(new CssProp(".dm:before", "border-style", "inherit"));
 		
-		Set<AnimatedElement> uniqueWidths = Filter.by(new Filter.BorderWidth(), p);
+		Set<AnimatedElement> uniqueWidths = Filter.byBorderStyle(p);
 		
 		for (AnimatedElement ae : uniqueWidths){
 			String selector = String.format(".dm-border-style-%s", ae.borderStyle);
