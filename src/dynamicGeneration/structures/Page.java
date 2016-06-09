@@ -9,9 +9,7 @@ import jodd.jerry.Jerry;
 import dynamicGeneration.AnimationSelectorProperties;
 import dynamicGeneration.GeneralProperties;
 import dynamicGeneration.InheritableProperties;
-import dynamicGeneration.keyframes.AfterKeyframes;
-import dynamicGeneration.keyframes.BeforeKeyframes;
-import dynamicGeneration.keyframes.ElementKeyframes;
+import dynamicGeneration.keyframes.KeyframesGenerator;
 import dynamicGeneration.util.Minimization;
 
 public class Page {
@@ -19,16 +17,17 @@ public class Page {
 	public List<AnimatedElement> elements;
 	public Jerry doc;
 	
-	public Page (String s, String html){
+	public Page (String html){
 		doc = jerry(html);
-		
+		String s = DOMParsing.findAnimatedElementsDefinition(doc);
 		String[] elementDescriptions = s.split("\n");
 		elements = new ArrayList<AnimatedElement>();
 		for (String description : elementDescriptions){
-			elements.add(new AnimatedElement(this, description));
+			elements.add(new AnimatedElement(description));
 		}
 	}
 	
+
 	public boolean selectorIsHelpful(String selector){
 		selector = selector.replace(":before", "");
 		selector = selector.replace(":after", "");
@@ -37,25 +36,17 @@ public class Page {
 		}
 		return false;
 	}
-
+	
 	public String generateCss(){
 		List<CssProp> props = GeneralProperties.all();
-		props.addAll(GeneralProperties.all());
-		props.addAll(InheritableProperties.all(this));
 		
-		List<KeyFrames> keyframes = new ArrayList<KeyFrames>();
-		for (AnimatedElement ae : elements){
-			
-			for (String s : AnimationSelectorProperties.generateAnimationSelectors(ae)){
-				props.add(new CssProp(s, "animation-name", KeyFrames.elementKeyframesName(ae)));
-				props.add(new CssProp(s+":before", "animation-name", KeyFrames.beforeKeyframesName(ae)));
-				props.add(new CssProp(s+":after", "animation-name", KeyFrames.afterKeyframesName(ae)));
-			}
-			
-			keyframes.add(AfterKeyframes.afterKeyframes(ae));
-			keyframes.add(BeforeKeyframes.beforeKeyframes(ae));
-			keyframes.add(ElementKeyframes.elementKeyframes(ae));
-		}
+		props.addAll(GeneralProperties.all());
+
+		props.addAll(InheritableProperties.all(this));
+
+		props.addAll(AnimationSelectorProperties.all(this));
+		
+		List<KeyFrames> keyframes = KeyframesGenerator.all(this);
 		
 		List<CssProp> usefulProps = new ArrayList<CssProp>();
 		for (CssProp cp : props){
@@ -63,7 +54,8 @@ public class Page {
 				usefulProps.add(cp);
 			}
 		}
-		
+
+		System.out.printf("PROPS SIZE %d\n", usefulProps.size());
 		String propCss = CssProp.allPropsToCss(usefulProps);
 		String keyframeCss = KeyFrames.keyframesToCSS(keyframes);
 		

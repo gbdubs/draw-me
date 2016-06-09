@@ -8,8 +8,6 @@ import dynamicGeneration.util.ColorUtility;
 
 public class AnimatedElement {
 	
-	public Page page;
-	
 	public String rotationDirection;
 	public String edges;
 	public int borderWidth;
@@ -24,9 +22,7 @@ public class AnimatedElement {
 	public String fadeTextToColor;
 	public boolean shouldFade;
 	
-	public AnimatedElement(Page p, String s){
-		page = p;
-		
+	public AnimatedElement(String s){		
 		String[] blocks = s.split(" ");
 		if (blocks.length != 13){
 			throw new RuntimeException(String.format("Expected Animation Elements of the Standard, Twelve Part Form: [%s]", s));

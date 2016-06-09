@@ -49,12 +49,19 @@ public class KeyFrames implements Comparable<KeyFrames>{
 		
 		Collections.sort(frameStrings, dpc);
 		
-		StringBuilder result = new StringBuilder();
-		result.append(String.format("@keyframes %s {\n", name));
+		StringBuilder body = new StringBuilder();
+		
 		for (String s : frameStrings){
-			result.append(s);
+			body.append(s);
 		}
-		result.append("}");
+		
+		String bodyString = body.toString();
+		
+		StringBuilder result = new StringBuilder();
+		
+		result.append(String.format("@keyframes %s {\n%s}\n\n", name, bodyString));
+		result.append(String.format("@-webkit-keyframes %s {\n%s}\n\n", name, bodyString));
+		result.append(String.format("@-moz-keyframes %s {\n%s}\n", name, bodyString));
 		
 		return result.toString();
 	}
@@ -122,28 +129,6 @@ public class KeyFrames implements Comparable<KeyFrames>{
 			return result;
 		}
 	}
-	
-	
-	
-	public static String beforeKeyframesName(AnimatedElement ae){
-		return String.format("dm-%s-%s-%d-before", ae.rotationDirection, ae.edges, ae.borderWidth);
-	}
-	
-	public static String elementKeyframesName(AnimatedElement ae){
-		if (ae.shouldFade){
-			return String.format("dm-%s-%s-%s-%s-%s-%s-%s", ae.rotationDirection, ae.edges, ae.borderColor, ae.fadeBackgroundFromColor, ae.fadeBackgroundToColor, ae.fadeTextFromColor, ae.fadeTextToColor);
-		} else {
-			return String.format("dm-%s-%s-%s", ae.rotationDirection, ae.edges, ae.borderColor);
-		}
-	}
-	
-	public static String afterKeyframesName(AnimatedElement ae){
-		Edge e1 = Edge.get(ae.edges.charAt(0));
-		Edge e0 = e1.prev(ae.rotationDirection);
-		String corner = "" + e0.letterName()+e1.letterName();
-		return String.format("dm-%s-%d-after", corner, ae.borderWidth);
-	}
-	
 	
 	public static List<KeyFrames> removeDuplicates(List<KeyFrames> list){
 		Collections.sort(list);

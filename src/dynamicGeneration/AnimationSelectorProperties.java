@@ -3,7 +3,10 @@ package dynamicGeneration;
 import java.util.ArrayList;
 import java.util.List;
 
+import dynamicGeneration.keyframes.KeyframesGenerator;
 import dynamicGeneration.structures.AnimatedElement;
+import dynamicGeneration.structures.CssProp;
+import dynamicGeneration.structures.Page;
 import dynamicGeneration.util.ColorUtility;
 
 public class AnimationSelectorProperties {
@@ -74,14 +77,19 @@ public class AnimationSelectorProperties {
 		result.addAll(considerBorderColor(considerShouldFade(considerBorderWidth(temp, ae), ae), ae));
 		result.addAll(considerBorderWidth(considerBorderColor(considerShouldFade(temp, ae), ae), ae));
 		result.addAll(considerBorderColor(considerBorderWidth(considerShouldFade(temp, ae), ae), ae));
-		List<String> finalResult = new ArrayList<String>();
-		for (String s : result){
-			if (ae.page.selectorIsHelpful(s)){
-				finalResult.add(s);
-			}
-		}
-		return finalResult;
+		return result;
 	}
 	
+	public static List<CssProp> all(Page p){
+		List<CssProp> props = new ArrayList<CssProp>();
+		for (AnimatedElement ae : p.elements){
+			for (String s : generateAnimationSelectors(ae)){
+				props.add(new CssProp(s, "animation-name", KeyframesGenerator.elementKeyframesName(ae)));
+				props.add(new CssProp(s+":before", "animation-name", KeyframesGenerator.beforeKeyframesName(ae)));
+				props.add(new CssProp(s+":after", "animation-name", KeyframesGenerator.afterKeyframesName(ae)));
+			}
+		}
+		return props;
+	}
 	
 }

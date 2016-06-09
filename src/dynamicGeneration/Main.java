@@ -9,9 +9,9 @@ import dynamicGeneration.util.Minimization;
 
 public class Main {
 
-	static String test1 = "ccw rtl 10 solid black 0 1000 linear white white white black 1";
+	public static String test1 = "ccw rtl 10 solid black 0 1000 linear white white white black 1";
 	
-	static String personal = "ccw lb 5 solid black 100 100 linear transparent transparent transparent black 1\n" + 
+	public static String personal = "ccw lb 5 solid black 100 100 linear transparent transparent transparent black 1\n" + 
 			"ccw rt 5 solid DE1718 200 100 linear transparent transparent transparent black 1\n" + 
 			"cw tr 5 solid DE1718 400 100 linear transparent transparent transparent black 1\n" + 
 			"ccw l 5 solid DE1718 300 100 linear transparent transparent transparent black 1\n" + 
@@ -68,7 +68,7 @@ public class Main {
 			"cw tr 5 solid black 575 100 linear transparent transparent transparent black 1\n" + 
 			"ccw br 5 solid black 575 100 linear transparent transparent transparent black 1";
 	
-	static String htmlPersonal = "<html>\n" + 
+	public static String htmlPersonal = "<html>\n" + 
 			"   <head>\n" + 
 			"      <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>\n" + 
 			"      <link href='result.css' rel='stylesheet' type='text/css'>\n" + 
@@ -220,8 +220,10 @@ public class Main {
 			"</html>";
 	
 	public static void main(String[] args){
-		Page p = new Page(personal, htmlPersonal);
+		long then = System.currentTimeMillis();
+		Page p = new Page(htmlPersonal);
 		String css = p.generateCss();
+		System.out.println("CALCULATION TOOK "+(System.currentTimeMillis() - then)+" milliseconds");
 		saveToFiles(css, "site/result");
 	}
 	
@@ -240,7 +242,6 @@ public class Main {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		System.out.println("GENERATED!");
 	}
 	
 }

@@ -76,6 +76,10 @@ public class CssProp implements Comparable<CssProp> {
 				if (!selector.equals(cp.selector)){
 					throw new RuntimeException("A CSSRules was created with different selectors!");
 				}
+				if (cp.property.contains("animation")){
+					properties.put("-moz-"+cp.property, cp.value);
+					properties.put("-webkit-"+cp.property, cp.value);
+				}
 				properties.put(cp.property, cp.value);
 			}
 			this.body = getBody();

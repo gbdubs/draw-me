@@ -10,7 +10,7 @@ public class BeforeKeyframes {
 		String edges = ae.edges;
 		String rotationDirection = ae.rotationDirection;
 		
-		String name = KeyFrames.beforeKeyframesName(ae);
+		String name = KeyframesGenerator.beforeKeyframesName(ae);
 		
 		char first = Edge.get(edges.charAt(0)).prev(rotationDirection).letterName();
 		char last = Edge.get(edges.charAt(edges.length()-1)).next(rotationDirection).letterName();

@@ -49,7 +49,7 @@ public class InheritableProperties {
 			
 			String selector = String.format(".dm-duration-%s", doubleToString(ae.duration));
 			String duration = String.format("%.2fs", ae.duration);
-			rules.add(new CssProp(selector+" .dm", "animation-duration", duration));
+			rules.add(new CssProp(selector+" .dm", "animation-duration ", duration));
 			rules.add(new CssProp("div"+selector+".dm", "animation-duration", duration));
 		}
 		
@@ -68,12 +68,7 @@ public class InheritableProperties {
 		for (AnimatedElement ae : uniqueDelays){
 			String selector = String.format(".dm-delay-%s", doubleToString(ae.delay));
 			String delay = String.format("%.2fs", ae.delay);
-			rules.add(new CssProp(selector+" .dm", "animation-delay", delay));
-		}
-		
-		for (AnimatedElement ae : uniqueDelays){
-			String selector = String.format(".dm-delay-%s", doubleToString(ae.delay));
-			String delay = String.format("%.2fs", ae.delay);
+			rules.add(new CssProp(selector+" .dm", "animation-delay ", delay));
 			rules.add(new CssProp(selector+".dm", "animation-delay", delay));
 		}
 		return rules;
@@ -104,12 +99,10 @@ public class InheritableProperties {
 		rules.add(new CssProp(".dm", "border-color", "black"));
 		rules.add(new CssProp(".dm:before", "border-color", "inherit"));
 		
-		System.out.println("CALLED");
 		Set<AnimatedElement> uniqueColors = Filter.byBorderColor(p);
 		
 		for (AnimatedElement ae : uniqueColors){
 			String selector = String.format(".dm-border-color-%s", ColorUtility.toName(ae.borderColor));
-			System.out.println(selector);
 			rules.add(new CssProp(selector, "border-color", ColorUtility.toHexCode(ae.borderColor)));
 			rules.add(new CssProp(selector+ " .dm", "border-color", ColorUtility.toHexCode(ae.borderColor)));
 			
