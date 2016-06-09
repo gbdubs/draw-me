@@ -39,9 +39,7 @@ public class InheritableProperties {
 	public static List<CssProp> animationDuration(Page p){
 		List<CssProp> rules = new ArrayList<CssProp>();
 		
-		rules.add(new CssProp(".dm-wrapper", "animation-duration", "1s"));
-		
-		rules.add(new CssProp(".dm", "animation-duration", "inherit"));
+		rules.add(new CssProp(".dm", "animation-duration", "1s"));
 		rules.add(new CssProp(".dm:before", "animation-duration", "inherit"));
 		rules.add(new CssProp(".dm:after", "animation-duration", "inherit"));
 		
@@ -51,7 +49,8 @@ public class InheritableProperties {
 			if (ae.duration != 1){
 				String selector = String.format(".dm-duration-%s", doubleToString(ae.duration));
 				String duration = String.format("%.2fs", ae.duration);
-				rules.add(new CssProp(selector, "animation-duration", duration));
+				rules.add(new CssProp(selector+".dm", "animation-duration", duration));
+				rules.add(new CssProp(selector+" .dm", "animation-duration", duration));
 			}
 		}
 		
@@ -61,9 +60,7 @@ public class InheritableProperties {
 	public static List<CssProp> animationDelay(Page p){
 		List<CssProp> rules = new ArrayList<CssProp>();
 		
-		rules.add(new CssProp(".dm-wrapper", "animation-delay", "0s"));
-		
-		rules.add(new CssProp(".dm", "animation-delay", "inherit"));
+		rules.add(new CssProp(".dm", "animation-delay", "0s"));
 		rules.add(new CssProp(".dm:before", "animation-delay", "inherit"));
 		rules.add(new CssProp(".dm:after", "animation-delay", "inherit"));
 		
@@ -72,7 +69,8 @@ public class InheritableProperties {
 		for (AnimatedElement ae : uniqueDelays){
 			String selector = String.format(".dm-delay-%s", doubleToString(ae.delay));
 			String delay = String.format("%.2fs", ae.delay);
-			rules.add(new CssProp(selector, "animation-delay", delay));
+			rules.add(new CssProp(selector+".dm", "animation-delay", delay));
+			rules.add(new CssProp(selector+" .dm", "animation-delay", delay));
 		}
 		
 		return rules;
@@ -81,9 +79,8 @@ public class InheritableProperties {
 	public static List<CssProp> animationTimingFunction(Page p){
 		List<CssProp> rules = new ArrayList<CssProp>();
 		
-		rules.add(new CssProp(".dm-wrapper", "animation-timing-function", "linear"));
+		rules.add(new CssProp(".dm", "animation-timing-function", "linear"));
 		
-		rules.add(new CssProp(".dm", "animation-timing-function", "inherit"));
 		rules.add(new CssProp(".dm:before", "animation-timing-function", "inherit"));
 		rules.add(new CssProp(".dm:after", "animation-timing-function", "inherit"));
 		
@@ -91,7 +88,8 @@ public class InheritableProperties {
 		
 		for (AnimatedElement ae : uniqueDelays){
 			String selector = String.format(".dm-animation-timing-%s", ae.animationTiming);
-			rules.add(new CssProp(selector, "animation-timing-function", ae.animationTiming));
+			rules.add(new CssProp(selector+ " .dm", "animation-timing-function", ae.animationTiming));
+			rules.add(new CssProp(selector+ ".dm", "animation-timing-function", ae.animationTiming));
 		}
 		
 		return rules;
@@ -100,9 +98,7 @@ public class InheritableProperties {
 	public static List<CssProp> borderColor(Page p){
 		List<CssProp> rules = new ArrayList<CssProp>();
 		
-		rules.add(new CssProp(".dm-wrapper", "border-color", "black"));
-		
-		rules.add(new CssProp(".dm", "border-color", "inherit"));
+		rules.add(new CssProp(".dm", "border-color", "black"));
 		rules.add(new CssProp(".dm:before", "border-color", "inherit"));
 		
 		Set<AnimatedElement> uniqueColors = Filter.by(new Filter.BorderColor(), p);
@@ -110,10 +106,11 @@ public class InheritableProperties {
 		for (AnimatedElement ae : uniqueColors){
 			String selector = String.format(".dm-border-color-%s", ColorUtility.toName(ae.borderColor));
 			rules.add(new CssProp(selector, "border-color", ColorUtility.toHexCode(ae.borderColor)));
+			rules.add(new CssProp(selector+ " .dm", "border-color", ColorUtility.toHexCode(ae.borderColor)));
 			
-			rules.add(new CssProp(selector+":before", "background", ColorUtility.toHexCode(ae.borderColor)));
+			rules.add(new CssProp(selector+".dm:before", "background", ColorUtility.toHexCode(ae.borderColor)));
 			rules.add(new CssProp(selector+" .dm:before", "background", ColorUtility.toHexCode(ae.borderColor)));
-			rules.add(new CssProp(selector+":after", "background", ColorUtility.toHexCode(ae.borderColor)));
+			rules.add(new CssProp(selector+".dm:after", "background", ColorUtility.toHexCode(ae.borderColor)));
 			rules.add(new CssProp(selector+" .dm:after", "background", ColorUtility.toHexCode(ae.borderColor)));
 		}
 		
@@ -123,9 +120,7 @@ public class InheritableProperties {
 	public static List<CssProp> borderWidth(Page p){
 		List<CssProp> rules = new ArrayList<CssProp>();
 		
-		rules.add(new CssProp(".dm-wrapper", "border-width", "1px"));
-		
-		rules.add(new CssProp(".dm", "border-width", "inherit"));
+		rules.add(new CssProp(".dm", "border-width", "1px"));
 		rules.add(new CssProp(".dm:before", "border-width", "inherit"));
 		
 		Set<AnimatedElement> uniqueWidths = Filter.by(new Filter.BorderWidth(), p);
@@ -133,6 +128,7 @@ public class InheritableProperties {
 		for (AnimatedElement ae : uniqueWidths){
 			String selector = String.format(".dm-border-width-%d", ae.borderWidth);
 			rules.add(new CssProp(selector, "border-width", ae.borderWidth + "px"));
+			rules.add(new CssProp(selector+ " .dm", "border-width", ae.borderWidth + "px"));
 		}
 		
 		return rules;
@@ -141,9 +137,7 @@ public class InheritableProperties {
 	public static List<CssProp> borderStyle(Page p){
 		List<CssProp> rules = new ArrayList<CssProp>();
 		
-		rules.add(new CssProp(".dm-wrapper", "border-style", "solid"));
-		
-		rules.add(new CssProp(".dm", "border-style", "inherit"));
+		rules.add(new CssProp(".dm", "border-style", "solid"));
 		rules.add(new CssProp(".dm:before", "border-style", "inherit"));
 		
 		Set<AnimatedElement> uniqueWidths = Filter.by(new Filter.BorderWidth(), p);
@@ -151,6 +145,7 @@ public class InheritableProperties {
 		for (AnimatedElement ae : uniqueWidths){
 			String selector = String.format(".dm-border-style-%s", ae.borderStyle);
 			rules.add(new CssProp(selector, "border-style", ae.borderStyle));
+			rules.add(new CssProp(selector+" .dm", "border-style", ae.borderStyle));
 		}
 		
 		return rules;

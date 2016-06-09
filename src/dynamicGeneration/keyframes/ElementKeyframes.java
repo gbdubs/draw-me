@@ -68,8 +68,8 @@ public class ElementKeyframes {
 		
 		for (Edge e : Edge.all){
 			if (!edges.contains(""+e.letterName())){
-				frames.add(0.0, "border-"+e.fullName()+"-color:", "transparent");
-				frames.add(100.0, "border-"+e.fullName()+"-color:", "transparent");
+				frames.add(0.0, "border-"+e.fullName()+"-color", "transparent");
+				frames.add(100.0, "border-"+e.fullName()+"-color", "transparent");
 			}
 		}
 		

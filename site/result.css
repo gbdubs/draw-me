@@ -1,0 +1,1816 @@
+.dm-delay-0-00 .dm,
+.dm-delay-0-00.dm {
+	animation-delay: 0.00s;
+}
+
+.dm {
+	animation-delay: 0s;
+	animation-direction: normal;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+}
+
+.dm-delay-1-00 .dm,
+.dm-delay-1-00.dm {
+	animation-delay: 1.00s;
+}
+
+.dm-delay-2-00 .dm,
+.dm-delay-2-00.dm {
+	animation-delay: 2.00s;
+}
+
+.dm-delay-3-00 .dm,
+.dm-delay-3-00.dm {
+	animation-delay: 3.00s;
+}
+
+.dm-delay-3-75 .dm,
+.dm-delay-3-75.dm {
+	animation-delay: 3.75s;
+}
+
+.dm-delay-4-00 .dm,
+.dm-delay-4-00.dm {
+	animation-delay: 4.00s;
+}
+
+.dm-delay-4-25 .dm,
+.dm-delay-4-25.dm {
+	animation-delay: 4.25s;
+}
+
+.dm-delay-4-50 .dm,
+.dm-delay-4-50.dm {
+	animation-delay: 4.50s;
+}
+
+.dm-delay-4-75 .dm,
+.dm-delay-4-75.dm {
+	animation-delay: 4.75s;
+}
+
+.dm-delay-5-00 .dm,
+.dm-delay-5-00.dm {
+	animation-delay: 5.00s;
+}
+
+.dm-delay-5-25 .dm,
+.dm-delay-5-25.dm {
+	animation-delay: 5.25s;
+}
+
+.dm-delay-5-50 .dm,
+.dm-delay-5-50.dm {
+	animation-delay: 5.50s;
+}
+
+.dm-delay-5-75 .dm,
+.dm-delay-5-75.dm {
+	animation-delay: 5.75s;
+}
+
+.dm-delay-6-00 .dm,
+.dm-delay-6-00.dm {
+	animation-delay: 6.00s;
+}
+
+.dm-delay-6-25 .dm,
+.dm-delay-6-25.dm {
+	animation-delay: 6.25s;
+}
+
+.dm:before {
+	animation-delay: inherit;
+	animation-direction: normal;
+	animation-duration: inherit;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-timing-function: inherit;
+	background: black;
+	border-color: inherit;
+	border-style: inherit;
+	border-width: inherit;
+	content: '';
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+
+.dm:after {
+	animation-delay: inherit;
+	animation-direction: normal;
+	animation-duration: inherit;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-timing-function: inherit;
+	background: black;
+	content: '';
+	display: block;
+	position: absolute;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-br:after,
+.dm-border-width-5 .dm.dm-ccw-br.dm-fade-transparent-transparent-transparent-black:after,
+.dm-border-width-5 .dm.dm-ccw-br:after,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-br:after,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-br.dm-border-width-5:after,
+.dm.dm-ccw-br.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:after,
+.dm.dm-ccw-br.dm-border-width-5:after,
+.dm.dm-ccw-br.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:after {
+	animation-name: dm-ccw-br-5-transparent-transparent-transparent-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-br:before,
+.dm-border-width-5 .dm.dm-ccw-br.dm-fade-transparent-transparent-transparent-black:before,
+.dm-border-width-5 .dm.dm-ccw-br:before,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-br:before,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-br.dm-border-width-5:before,
+.dm.dm-ccw-br.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:before,
+.dm.dm-ccw-br.dm-border-width-5:before,
+.dm.dm-ccw-br.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:before {
+	animation-name: dm-ccw-br-5-transparent-transparent-transparent-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-br,
+.dm-border-width-5 .dm.dm-ccw-br,
+.dm-border-width-5 .dm.dm-ccw-br.dm-fade-transparent-transparent-transparent-black,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-br,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-br.dm-border-width-5,
+.dm.dm-ccw-br.dm-border-width-5,
+.dm.dm-ccw-br.dm-border-width-5.dm-fade-transparent-transparent-transparent-black,
+.dm.dm-ccw-br.dm-fade-transparent-transparent-transparent-black.dm-border-width-5 {
+	animation-name: dm-ccw-br-5-transparent-transparent-transparent-000000;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-l:after,
+.dm-border-width-5 .dm.dm-ccw-l.dm-fade-transparent-transparent-transparent-black:after,
+.dm-border-width-5 .dm.dm-ccw-l:after,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-l:after,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-l.dm-border-width-5:after,
+.dm.dm-ccw-l.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:after,
+.dm.dm-ccw-l.dm-border-width-5:after,
+.dm.dm-ccw-l.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:after {
+	animation-name: dm-ccw-l-5-transparent-transparent-transparent-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-l:before,
+.dm-border-width-5 .dm.dm-ccw-l.dm-fade-transparent-transparent-transparent-black:before,
+.dm-border-width-5 .dm.dm-ccw-l:before,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-l:before,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-l.dm-border-width-5:before,
+.dm.dm-ccw-l.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:before,
+.dm.dm-ccw-l.dm-border-width-5:before,
+.dm.dm-ccw-l.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:before {
+	animation-name: dm-ccw-l-5-transparent-transparent-transparent-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-l,
+.dm-border-width-5 .dm.dm-ccw-l,
+.dm-border-width-5 .dm.dm-ccw-l.dm-fade-transparent-transparent-transparent-black,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-l,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-l.dm-border-width-5,
+.dm.dm-ccw-l.dm-border-width-5,
+.dm.dm-ccw-l.dm-border-width-5.dm-fade-transparent-transparent-transparent-black,
+.dm.dm-ccw-l.dm-fade-transparent-transparent-transparent-black.dm-border-width-5 {
+	animation-name: dm-ccw-l-5-transparent-transparent-transparent-000000;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-lb:after,
+.dm-border-width-5 .dm.dm-ccw-lb.dm-fade-transparent-transparent-transparent-black:after,
+.dm-border-width-5 .dm.dm-ccw-lb:after,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-lb:after,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-lb.dm-border-width-5:after,
+.dm.dm-ccw-lb.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:after,
+.dm.dm-ccw-lb.dm-border-width-5:after,
+.dm.dm-ccw-lb.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:after {
+	animation-name: dm-ccw-lb-5-transparent-transparent-transparent-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-lb:before,
+.dm-border-width-5 .dm.dm-ccw-lb.dm-fade-transparent-transparent-transparent-black:before,
+.dm-border-width-5 .dm.dm-ccw-lb:before,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-lb:before,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-lb.dm-border-width-5:before,
+.dm.dm-ccw-lb.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:before,
+.dm.dm-ccw-lb.dm-border-width-5:before,
+.dm.dm-ccw-lb.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:before {
+	animation-name: dm-ccw-lb-5-transparent-transparent-transparent-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-lb,
+.dm-border-width-5 .dm.dm-ccw-lb,
+.dm-border-width-5 .dm.dm-ccw-lb.dm-fade-transparent-transparent-transparent-black,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-lb,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-lb.dm-border-width-5,
+.dm.dm-ccw-lb.dm-border-width-5,
+.dm.dm-ccw-lb.dm-border-width-5.dm-fade-transparent-transparent-transparent-black,
+.dm.dm-ccw-lb.dm-fade-transparent-transparent-transparent-black.dm-border-width-5 {
+	animation-name: dm-ccw-lb-5-transparent-transparent-transparent-000000;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-lbr:after,
+.dm-border-width-5 .dm.dm-ccw-lbr.dm-fade-transparent-transparent-transparent-black:after,
+.dm-border-width-5 .dm.dm-ccw-lbr:after,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-lbr:after,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-lbr.dm-border-width-5:after,
+.dm.dm-ccw-lbr.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:after,
+.dm.dm-ccw-lbr.dm-border-width-5:after,
+.dm.dm-ccw-lbr.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:after {
+	animation-name: dm-ccw-lbr-5-transparent-transparent-transparent-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-lbr:before,
+.dm-border-width-5 .dm.dm-ccw-lbr.dm-fade-transparent-transparent-transparent-black:before,
+.dm-border-width-5 .dm.dm-ccw-lbr:before,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-lbr:before,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-lbr.dm-border-width-5:before,
+.dm.dm-ccw-lbr.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:before,
+.dm.dm-ccw-lbr.dm-border-width-5:before,
+.dm.dm-ccw-lbr.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:before {
+	animation-name: dm-ccw-lbr-5-transparent-transparent-transparent-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-lbr,
+.dm-border-width-5 .dm.dm-ccw-lbr,
+.dm-border-width-5 .dm.dm-ccw-lbr.dm-fade-transparent-transparent-transparent-black,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-lbr,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-lbr.dm-border-width-5,
+.dm.dm-ccw-lbr.dm-border-width-5,
+.dm.dm-ccw-lbr.dm-border-width-5.dm-fade-transparent-transparent-transparent-black,
+.dm.dm-ccw-lbr.dm-fade-transparent-transparent-transparent-black.dm-border-width-5 {
+	animation-name: dm-ccw-lbr-5-transparent-transparent-transparent-000000;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-rt:after,
+.dm-border-width-5 .dm.dm-ccw-rt.dm-fade-transparent-transparent-transparent-black:after,
+.dm-border-width-5 .dm.dm-ccw-rt:after,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-rt:after,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-rt.dm-border-width-5:after,
+.dm.dm-ccw-rt.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:after,
+.dm.dm-ccw-rt.dm-border-width-5:after,
+.dm.dm-ccw-rt.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:after {
+	animation-name: dm-ccw-rt-5-transparent-transparent-transparent-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-rt:before,
+.dm-border-width-5 .dm.dm-ccw-rt.dm-fade-transparent-transparent-transparent-black:before,
+.dm-border-width-5 .dm.dm-ccw-rt:before,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-rt:before,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-rt.dm-border-width-5:before,
+.dm.dm-ccw-rt.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:before,
+.dm.dm-ccw-rt.dm-border-width-5:before,
+.dm.dm-ccw-rt.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:before {
+	animation-name: dm-ccw-rt-5-transparent-transparent-transparent-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-rt,
+.dm-border-width-5 .dm.dm-ccw-rt,
+.dm-border-width-5 .dm.dm-ccw-rt.dm-fade-transparent-transparent-transparent-black,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-rt,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-rt.dm-border-width-5,
+.dm.dm-ccw-rt.dm-border-width-5,
+.dm.dm-ccw-rt.dm-border-width-5.dm-fade-transparent-transparent-transparent-black,
+.dm.dm-ccw-rt.dm-fade-transparent-transparent-transparent-black.dm-border-width-5 {
+	animation-name: dm-ccw-rt-5-transparent-transparent-transparent-000000;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-tl:after,
+.dm-border-width-5 .dm.dm-ccw-tl.dm-fade-transparent-transparent-transparent-black:after,
+.dm-border-width-5 .dm.dm-ccw-tl:after,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-tl:after,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-tl.dm-border-width-5:after,
+.dm.dm-ccw-tl.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:after,
+.dm.dm-ccw-tl.dm-border-width-5:after,
+.dm.dm-ccw-tl.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:after {
+	animation-name: dm-ccw-tl-5-transparent-transparent-transparent-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-tl:before,
+.dm-border-width-5 .dm.dm-ccw-tl.dm-fade-transparent-transparent-transparent-black:before,
+.dm-border-width-5 .dm.dm-ccw-tl:before,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-tl:before,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-tl.dm-border-width-5:before,
+.dm.dm-ccw-tl.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:before,
+.dm.dm-ccw-tl.dm-border-width-5:before,
+.dm.dm-ccw-tl.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:before {
+	animation-name: dm-ccw-tl-5-transparent-transparent-transparent-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-tl,
+.dm-border-width-5 .dm.dm-ccw-tl,
+.dm-border-width-5 .dm.dm-ccw-tl.dm-fade-transparent-transparent-transparent-black,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-tl,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-tl.dm-border-width-5,
+.dm.dm-ccw-tl.dm-border-width-5,
+.dm.dm-ccw-tl.dm-border-width-5.dm-fade-transparent-transparent-transparent-black,
+.dm.dm-ccw-tl.dm-fade-transparent-transparent-transparent-black.dm-border-width-5 {
+	animation-name: dm-ccw-tl-5-transparent-transparent-transparent-000000;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-tlb:after,
+.dm-border-width-5 .dm.dm-ccw-tlb.dm-fade-transparent-transparent-transparent-black:after,
+.dm-border-width-5 .dm.dm-ccw-tlb:after,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-tlb:after,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-tlb.dm-border-width-5:after,
+.dm.dm-ccw-tlb.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:after,
+.dm.dm-ccw-tlb.dm-border-width-5:after,
+.dm.dm-ccw-tlb.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:after {
+	animation-name: dm-ccw-tlb-5-transparent-transparent-transparent-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-tlb:before,
+.dm-border-width-5 .dm.dm-ccw-tlb.dm-fade-transparent-transparent-transparent-black:before,
+.dm-border-width-5 .dm.dm-ccw-tlb:before,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-tlb:before,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-tlb.dm-border-width-5:before,
+.dm.dm-ccw-tlb.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:before,
+.dm.dm-ccw-tlb.dm-border-width-5:before,
+.dm.dm-ccw-tlb.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:before {
+	animation-name: dm-ccw-tlb-5-transparent-transparent-transparent-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-tlb,
+.dm-border-width-5 .dm.dm-ccw-tlb,
+.dm-border-width-5 .dm.dm-ccw-tlb.dm-fade-transparent-transparent-transparent-black,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-ccw-tlb,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-ccw-tlb.dm-border-width-5,
+.dm.dm-ccw-tlb.dm-border-width-5,
+.dm.dm-ccw-tlb.dm-border-width-5.dm-fade-transparent-transparent-transparent-black,
+.dm.dm-ccw-tlb.dm-fade-transparent-transparent-transparent-black.dm-border-width-5 {
+	animation-name: dm-ccw-tlb-5-transparent-transparent-transparent-000000;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-cw-blt:after,
+.dm-border-width-5 .dm.dm-cw-blt.dm-fade-transparent-transparent-transparent-black:after,
+.dm-border-width-5 .dm.dm-cw-blt:after,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-cw-blt:after,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-cw-blt.dm-border-width-5:after,
+.dm.dm-cw-blt.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:after,
+.dm.dm-cw-blt.dm-border-width-5:after,
+.dm.dm-cw-blt.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:after {
+	animation-name: dm-cw-blt-5-transparent-transparent-transparent-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-cw-blt:before,
+.dm-border-width-5 .dm.dm-cw-blt.dm-fade-transparent-transparent-transparent-black:before,
+.dm-border-width-5 .dm.dm-cw-blt:before,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-cw-blt:before,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-cw-blt.dm-border-width-5:before,
+.dm.dm-cw-blt.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:before,
+.dm.dm-cw-blt.dm-border-width-5:before,
+.dm.dm-cw-blt.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:before {
+	animation-name: dm-cw-blt-5-transparent-transparent-transparent-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-cw-blt,
+.dm-border-width-5 .dm.dm-cw-blt,
+.dm-border-width-5 .dm.dm-cw-blt.dm-fade-transparent-transparent-transparent-black,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-cw-blt,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-cw-blt.dm-border-width-5,
+.dm.dm-cw-blt.dm-border-width-5,
+.dm.dm-cw-blt.dm-border-width-5.dm-fade-transparent-transparent-transparent-black,
+.dm.dm-cw-blt.dm-fade-transparent-transparent-transparent-black.dm-border-width-5 {
+	animation-name: dm-cw-blt-5-transparent-transparent-transparent-000000;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-cw-lt:after,
+.dm-border-width-5 .dm.dm-cw-lt.dm-fade-transparent-transparent-transparent-black:after,
+.dm-border-width-5 .dm.dm-cw-lt:after,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-cw-lt:after,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-cw-lt.dm-border-width-5:after,
+.dm.dm-cw-lt.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:after,
+.dm.dm-cw-lt.dm-border-width-5:after,
+.dm.dm-cw-lt.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:after {
+	animation-name: dm-cw-lt-5-transparent-transparent-transparent-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-cw-lt:before,
+.dm-border-width-5 .dm.dm-cw-lt.dm-fade-transparent-transparent-transparent-black:before,
+.dm-border-width-5 .dm.dm-cw-lt:before,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-cw-lt:before,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-cw-lt.dm-border-width-5:before,
+.dm.dm-cw-lt.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:before,
+.dm.dm-cw-lt.dm-border-width-5:before,
+.dm.dm-cw-lt.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:before {
+	animation-name: dm-cw-lt-5-transparent-transparent-transparent-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-cw-lt,
+.dm-border-width-5 .dm.dm-cw-lt,
+.dm-border-width-5 .dm.dm-cw-lt.dm-fade-transparent-transparent-transparent-black,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-cw-lt,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-cw-lt.dm-border-width-5,
+.dm.dm-cw-lt.dm-border-width-5,
+.dm.dm-cw-lt.dm-border-width-5.dm-fade-transparent-transparent-transparent-black,
+.dm.dm-cw-lt.dm-fade-transparent-transparent-transparent-black.dm-border-width-5 {
+	animation-name: dm-cw-lt-5-transparent-transparent-transparent-000000;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-cw-rb:after,
+.dm-border-width-5 .dm.dm-cw-rb.dm-fade-transparent-transparent-transparent-black:after,
+.dm-border-width-5 .dm.dm-cw-rb:after,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-cw-rb:after,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-cw-rb.dm-border-width-5:after,
+.dm.dm-cw-rb.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:after,
+.dm.dm-cw-rb.dm-border-width-5:after,
+.dm.dm-cw-rb.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:after {
+	animation-name: dm-cw-rb-5-transparent-transparent-transparent-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-cw-rb:before,
+.dm-border-width-5 .dm.dm-cw-rb.dm-fade-transparent-transparent-transparent-black:before,
+.dm-border-width-5 .dm.dm-cw-rb:before,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-cw-rb:before,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-cw-rb.dm-border-width-5:before,
+.dm.dm-cw-rb.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:before,
+.dm.dm-cw-rb.dm-border-width-5:before,
+.dm.dm-cw-rb.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:before {
+	animation-name: dm-cw-rb-5-transparent-transparent-transparent-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-cw-rb,
+.dm-border-width-5 .dm.dm-cw-rb,
+.dm-border-width-5 .dm.dm-cw-rb.dm-fade-transparent-transparent-transparent-black,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-cw-rb,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-cw-rb.dm-border-width-5,
+.dm.dm-cw-rb.dm-border-width-5,
+.dm.dm-cw-rb.dm-border-width-5.dm-fade-transparent-transparent-transparent-black,
+.dm.dm-cw-rb.dm-fade-transparent-transparent-transparent-black.dm-border-width-5 {
+	animation-name: dm-cw-rb-5-transparent-transparent-transparent-000000;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-cw-rbl:after,
+.dm-border-width-5 .dm.dm-cw-rbl.dm-fade-transparent-transparent-transparent-black:after,
+.dm-border-width-5 .dm.dm-cw-rbl:after,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-cw-rbl:after,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-cw-rbl.dm-border-width-5:after,
+.dm.dm-cw-rbl.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:after,
+.dm.dm-cw-rbl.dm-border-width-5:after,
+.dm.dm-cw-rbl.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:after {
+	animation-name: dm-cw-rbl-5-transparent-transparent-transparent-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-cw-rbl:before,
+.dm-border-width-5 .dm.dm-cw-rbl.dm-fade-transparent-transparent-transparent-black:before,
+.dm-border-width-5 .dm.dm-cw-rbl:before,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-cw-rbl:before,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-cw-rbl.dm-border-width-5:before,
+.dm.dm-cw-rbl.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:before,
+.dm.dm-cw-rbl.dm-border-width-5:before,
+.dm.dm-cw-rbl.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:before {
+	animation-name: dm-cw-rbl-5-transparent-transparent-transparent-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-cw-rbl,
+.dm-border-width-5 .dm.dm-cw-rbl,
+.dm-border-width-5 .dm.dm-cw-rbl.dm-fade-transparent-transparent-transparent-black,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-cw-rbl,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-cw-rbl.dm-border-width-5,
+.dm.dm-cw-rbl.dm-border-width-5,
+.dm.dm-cw-rbl.dm-border-width-5.dm-fade-transparent-transparent-transparent-black,
+.dm.dm-cw-rbl.dm-fade-transparent-transparent-transparent-black.dm-border-width-5 {
+	animation-name: dm-cw-rbl-5-transparent-transparent-transparent-000000;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-cw-tr:after,
+.dm-border-width-5 .dm.dm-cw-tr.dm-fade-transparent-transparent-transparent-black:after,
+.dm-border-width-5 .dm.dm-cw-tr:after,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-cw-tr:after,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-cw-tr.dm-border-width-5:after,
+.dm.dm-cw-tr.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:after,
+.dm.dm-cw-tr.dm-border-width-5:after,
+.dm.dm-cw-tr.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:after {
+	animation-name: dm-cw-tr-5-transparent-transparent-transparent-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-cw-tr:before,
+.dm-border-width-5 .dm.dm-cw-tr.dm-fade-transparent-transparent-transparent-black:before,
+.dm-border-width-5 .dm.dm-cw-tr:before,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-cw-tr:before,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-cw-tr.dm-border-width-5:before,
+.dm.dm-cw-tr.dm-border-width-5.dm-fade-transparent-transparent-transparent-black:before,
+.dm.dm-cw-tr.dm-border-width-5:before,
+.dm.dm-cw-tr.dm-fade-transparent-transparent-transparent-black.dm-border-width-5:before {
+	animation-name: dm-cw-tr-5-transparent-transparent-transparent-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-transparent-transparent-transparent-black .dm.dm-cw-tr,
+.dm-border-width-5 .dm.dm-cw-tr,
+.dm-border-width-5 .dm.dm-cw-tr.dm-fade-transparent-transparent-transparent-black,
+.dm-fade-transparent-transparent-transparent-black .dm-border-width-5 .dm.dm-cw-tr,
+.dm-fade-transparent-transparent-transparent-black .dm.dm-cw-tr.dm-border-width-5,
+.dm.dm-cw-tr.dm-border-width-5,
+.dm.dm-cw-tr.dm-border-width-5.dm-fade-transparent-transparent-transparent-black,
+.dm.dm-cw-tr.dm-fade-transparent-transparent-transparent-black.dm-border-width-5 {
+	animation-name: dm-cw-tr-5-transparent-transparent-transparent-000000;
+}
+
+.dm-animation-timing-linear .dm,
+.dm-animation-timing-linear.dm {
+	animation-timing-function: linear;
+}
+
+.dm-border-color-black .dm:after,
+.dm-border-color-black .dm:before,
+.dm-border-color-black.dm:after,
+.dm-border-color-black.dm:before {
+	background: #000000;
+}
+
+.dm-border-color-1C55BF .dm:after,
+.dm-border-color-1C55BF .dm:before,
+.dm-border-color-1C55BF.dm:after,
+.dm-border-color-1C55BF.dm:before {
+	background: #1C55BF;
+}
+
+.dm-border-color-DE1718 .dm:after,
+.dm-border-color-DE1718 .dm:before,
+.dm-border-color-DE1718.dm:after,
+.dm-border-color-DE1718.dm:before {
+	background: #DE1718;
+}
+
+.dm-border-color-black,
+.dm-border-color-black .dm {
+	border-color: #000000;
+}
+
+.dm-border-color-1C55BF,
+.dm-border-color-1C55BF .dm {
+	border-color: #1C55BF;
+}
+
+.dm-border-color-DE1718,
+.dm-border-color-DE1718 .dm {
+	border-color: #DE1718;
+}
+
+.dm-border-style-solid,
+.dm-border-style-solid .dm {
+	border-style: solid;
+}
+
+.dm-border-width-5,
+.dm-border-width-5 .dm {
+	border-width: 5px;
+}
+
+@keyframes dm-ccw-br-5-transparent-transparent-transparent-000000 {
+	0.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: transparent;
+	}
+	48.99% {
+		border-bottom-color: transparent;
+		border-right-color: transparent;
+	}
+	49.00%, 97.99% {
+		border-bottom-color: #000000;
+		border-right-color: transparent;
+	}
+	70.00% {
+		background-color: transparent;
+		color: transparent;
+	}
+	98.00% {
+		border-bottom-color: #000000;
+		border-right-color: #000000;
+	}
+	100.00% {
+		background-color: transparent;
+		border-left-color: transparent;
+		border-top-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-ccw-br-5-transparent-transparent-transparent-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: -5px;
+		display: block;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-br-5-transparent-transparent-transparent-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	49.99% {
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 100%;
+	}
+	50.00% {
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 100%;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 0;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: auto;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-l-5-transparent-transparent-transparent-000000 {
+	0.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: transparent;
+	}
+	70.00% {
+		background-color: transparent;
+		color: transparent;
+	}
+	97.99% {
+		border-left-color: transparent;
+	}
+	98.00% {
+		border-left-color: #DE1718;
+	}
+	100.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-ccw-l-5-transparent-transparent-transparent-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: auto;
+		display: block;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-l-5-transparent-transparent-transparent-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 100%;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: -5px;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-lb-5-transparent-transparent-transparent-000000 {
+	0.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: transparent;
+	}
+	48.99% {
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+	}
+	49.00%, 97.99% {
+		border-bottom-color: transparent;
+		border-left-color: #000000;
+	}
+	70.00% {
+		background-color: transparent;
+		color: transparent;
+	}
+	98.00% {
+		border-bottom-color: #000000;
+		border-left-color: #000000;
+	}
+	100.00% {
+		background-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-ccw-lb-5-transparent-transparent-transparent-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: auto;
+		display: block;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-lb-5-transparent-transparent-transparent-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	49.99% {
+		bottom: auto;
+		height: 100%;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	50.00% {
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 100%;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: -5px;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-lbr-5-transparent-transparent-transparent-000000 {
+	0.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: transparent;
+	}
+	32.66% {
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+	}
+	32.67%, 65.32% {
+		border-bottom-color: transparent;
+		border-left-color: #000000;
+	}
+	65.33%, 97.99% {
+		border-bottom-color: #000000;
+		border-right-color: transparent;
+	}
+	70.00% {
+		background-color: transparent;
+		color: transparent;
+	}
+	98.00% {
+		border-bottom-color: #000000;
+		border-left-color: #000000;
+		border-right-color: #000000;
+	}
+	100.00% {
+		background-color: transparent;
+		border-top-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-ccw-lbr-5-transparent-transparent-transparent-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: auto;
+		display: block;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-lbr-5-transparent-transparent-transparent-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	33.65% {
+		bottom: auto;
+		height: 100%;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	33.66% {
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	66.32% {
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 100%;
+	}
+	66.33% {
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 100%;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 0;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: auto;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-rt-5-transparent-transparent-transparent-000000 {
+	0.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: transparent;
+	}
+	48.99% {
+		border-right-color: transparent;
+		border-top-color: transparent;
+	}
+	49.00%, 97.99% {
+		border-right-color: #DE1718;
+		border-top-color: transparent;
+	}
+	70.00% {
+		background-color: transparent;
+		color: transparent;
+	}
+	98.00% {
+		border-right-color: #DE1718;
+		border-top-color: #DE1718;
+	}
+	100.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-ccw-rt-5-transparent-transparent-transparent-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: -5px;
+		display: block;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-rt-5-transparent-transparent-transparent-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 0;
+	}
+	49.99% {
+		bottom: -5px;
+		height: 100%;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 0;
+	}
+	50.00% {
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 100%;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: auto;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-tl-5-transparent-transparent-transparent-000000 {
+	0.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: transparent;
+	}
+	48.99% {
+		border-left-color: transparent;
+		border-top-color: transparent;
+	}
+	49.00%, 97.99% {
+		border-left-color: transparent;
+		border-top-color: #000000;
+	}
+	70.00% {
+		background-color: transparent;
+		color: transparent;
+	}
+	98.00% {
+		border-left-color: #000000;
+		border-top-color: #000000;
+	}
+	100.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-right-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-ccw-tl-5-transparent-transparent-transparent-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: auto;
+		display: block;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-tl-5-transparent-transparent-transparent-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 0;
+	}
+	49.99% {
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 100%;
+	}
+	50.00% {
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 100%;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: -5px;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-tlb-5-transparent-transparent-transparent-000000 {
+	0.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: transparent;
+	}
+	32.66% {
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-top-color: transparent;
+	}
+	32.67%, 65.32% {
+		border-left-color: transparent;
+		border-top-color: #000000;
+	}
+	65.33%, 97.99% {
+		border-bottom-color: transparent;
+		border-left-color: #000000;
+	}
+	70.00% {
+		background-color: transparent;
+		color: transparent;
+	}
+	98.00% {
+		border-bottom-color: #000000;
+		border-left-color: #000000;
+		border-top-color: #000000;
+	}
+	100.00% {
+		background-color: transparent;
+		border-right-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-ccw-tlb-5-transparent-transparent-transparent-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: auto;
+		display: block;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-tlb-5-transparent-transparent-transparent-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 0;
+	}
+	33.65% {
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 100%;
+	}
+	33.66% {
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	66.32% {
+		bottom: auto;
+		height: 100%;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	66.33% {
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 100%;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: -5px;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-blt-5-transparent-transparent-transparent-000000 {
+	0.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: transparent;
+	}
+	32.66% {
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-top-color: transparent;
+	}
+	32.67%, 65.32% {
+		border-bottom-color: #000000;
+		border-left-color: transparent;
+	}
+	65.33%, 97.99% {
+		border-left-color: #000000;
+		border-top-color: transparent;
+	}
+	70.00% {
+		background-color: transparent;
+		color: transparent;
+	}
+	98.00% {
+		border-bottom-color: #000000;
+		border-left-color: #000000;
+		border-top-color: #000000;
+	}
+	100.00% {
+		background-color: transparent;
+		border-right-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-cw-blt-5-transparent-transparent-transparent-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: -5px;
+		display: block;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-blt-5-transparent-transparent-transparent-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 0;
+	}
+	33.65% {
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 100%;
+	}
+	33.66% {
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	66.32% {
+		bottom: -5px;
+		height: 100%;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	66.33% {
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 100%;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: auto;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-lt-5-transparent-transparent-transparent-000000 {
+	0.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: transparent;
+	}
+	48.99% {
+		border-left-color: transparent;
+		border-top-color: transparent;
+	}
+	49.00%, 97.99% {
+		border-left-color: #1C55BF;
+		border-top-color: transparent;
+	}
+	70.00% {
+		background-color: transparent;
+		color: transparent;
+	}
+	98.00% {
+		border-left-color: #1C55BF;
+		border-top-color: #1C55BF;
+	}
+	100.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-right-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-cw-lt-5-transparent-transparent-transparent-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: -5px;
+		display: block;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-lt-5-transparent-transparent-transparent-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	49.99% {
+		bottom: -5px;
+		height: 100%;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	50.00% {
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 100%;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: auto;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-rb-5-transparent-transparent-transparent-000000 {
+	0.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: transparent;
+	}
+	48.99% {
+		border-bottom-color: transparent;
+		border-right-color: transparent;
+	}
+	49.00%, 97.99% {
+		border-bottom-color: transparent;
+		border-right-color: #000000;
+	}
+	70.00% {
+		background-color: transparent;
+		color: transparent;
+	}
+	98.00% {
+		border-bottom-color: #000000;
+		border-right-color: #000000;
+	}
+	100.00% {
+		background-color: transparent;
+		border-left-color: transparent;
+		border-top-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-cw-rb-5-transparent-transparent-transparent-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: auto;
+		display: block;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-rb-5-transparent-transparent-transparent-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 0;
+	}
+	49.99% {
+		bottom: auto;
+		height: 100%;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 0;
+	}
+	50.00% {
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 100%;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: -5px;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-rbl-5-transparent-transparent-transparent-000000 {
+	0.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: transparent;
+	}
+	32.66% {
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+	}
+	32.67%, 65.32% {
+		border-bottom-color: transparent;
+		border-right-color: #000000;
+	}
+	65.33%, 97.99% {
+		border-bottom-color: #000000;
+		border-left-color: transparent;
+	}
+	70.00% {
+		background-color: transparent;
+		color: transparent;
+	}
+	98.00% {
+		border-bottom-color: #000000;
+		border-left-color: #000000;
+		border-right-color: #000000;
+	}
+	100.00% {
+		background-color: transparent;
+		border-top-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-cw-rbl-5-transparent-transparent-transparent-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: auto;
+		display: block;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-rbl-5-transparent-transparent-transparent-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 0;
+	}
+	33.65% {
+		bottom: auto;
+		height: 100%;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 0;
+	}
+	33.66% {
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 0;
+	}
+	66.32% {
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 100%;
+	}
+	66.33% {
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 100%;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: auto;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-tr-5-transparent-transparent-transparent-000000 {
+	0.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: transparent;
+	}
+	48.99% {
+		border-right-color: transparent;
+		border-top-color: transparent;
+	}
+	49.00%, 97.99% {
+		border-right-color: transparent;
+		border-top-color: #DE1718;
+	}
+	70.00% {
+		background-color: transparent;
+		color: transparent;
+	}
+	98.00% {
+		border-right-color: #DE1718;
+		border-top-color: #DE1718;
+	}
+	100.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-cw-tr-5-transparent-transparent-transparent-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: auto;
+		display: block;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-tr-5-transparent-transparent-transparent-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	49.99% {
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 100%;
+	}
+	50.00% {
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 100%;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 0;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: -5px;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 5px;
+	}
+}
+

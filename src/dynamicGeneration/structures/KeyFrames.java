@@ -124,8 +124,11 @@ public class KeyFrames implements Comparable<KeyFrames>{
 	}
 	
 	public static String keyframesName(AnimatedElement ae){
-		int fade = ae.shouldFade ? 1 : 0;
-		return String.format("dm-%s-%s-%d-%d-%s-%s-%s-%s", ae.rotationDirection, ae.edges, ae.borderWidth, fade, ae.fadeBackgroundFromColor, ae.fadeBackgroundToColor, ae.fadeTextFromColor, ae.fadeTextToColor);
+		if (ae.shouldFade){
+			return String.format("dm-%s-%s-%d-%s-%s-%s-%s", ae.rotationDirection, ae.edges, ae.borderWidth, ae.fadeBackgroundFromColor, ae.fadeBackgroundToColor, ae.fadeTextFromColor, ae.fadeTextToColor);
+		} else {
+			return String.format("dm-%s-%s-%d", ae.rotationDirection, ae.edges, ae.borderWidth);
+		}
 	}
 	
 	

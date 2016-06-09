@@ -12,10 +12,10 @@ public class BeforeKeyframes {
 		
 		String name = KeyFrames.keyframesName(ae) + "-before";
 		
-		char last = Edge.get(edges.charAt(0)).prev(rotationDirection).letterName();
-		char first = Edge.get(edges.charAt(edges.length()-1)).next(rotationDirection).letterName();
+		char first = Edge.get(edges.charAt(0)).prev(rotationDirection).letterName();
+		char last = Edge.get(edges.charAt(edges.length()-1)).next(rotationDirection).letterName();
+		
 		edges = first + edges + last;
-		System.out.println("MODIFIED EDGES: " + edges);
 		
 		KeyFrames frames = new KeyFrames(name);
 		
@@ -53,10 +53,6 @@ public class BeforeKeyframes {
 		
 		double percentageOne = buildBeforePercentage(index, denom, false);
 		double percentageTwo = buildBeforePercentage(index + 1, denom, true);
-		
-		System.out.println(e0.fullName() + " " + percentageOne);
-		System.out.println(e1.fullName() + " " + percentageTwo);
-		System.out.println("HERE");
 		
 		buildBeforePositionProperties(frames, percentageOne, borderWidth, e0, e1);
 		buildBeforePositionProperties(frames, percentageTwo, borderWidth, e0, e1);

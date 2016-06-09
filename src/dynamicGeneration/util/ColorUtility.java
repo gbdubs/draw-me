@@ -34,6 +34,9 @@ public class ColorUtility {
 	}
 	
 	public static String toHex(String s){
+		if (s.equals("transparent")){
+			return s;
+		}
 		if (s.indexOf("#") == 0){
 			s = s.substring(1);
 		}
@@ -47,6 +50,9 @@ public class ColorUtility {
 	}
 	
 	public static String toHexCode(String s){
+		if (s.equals("transparent")){
+			return s;
+		}
 		String hex = toHex(s);
 		if (hex == null){
 			return s;

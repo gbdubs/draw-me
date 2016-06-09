@@ -1,13 +1,102 @@
-MODIFIED EDGES: brtlb
-bottom 1.0
-right 33.65
-HERE
-right 33.66
-top 66.32
-HERE
-top 66.33
-left 98.99
-HERE
+.dm-delay-0-00 {
+	animation-delay: 0.00s;
+}
+
+.dm-wrapper {
+	animation-delay: 0s;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.dm-delay-100-00 {
+	animation-delay: 100.00s;
+}
+
+.dm-delay-200-00 {
+	animation-delay: 200.00s;
+}
+
+.dm-delay-300-00 {
+	animation-delay: 300.00s;
+}
+
+.dm-delay-375-00 {
+	animation-delay: 375.00s;
+}
+
+.dm-delay-400-00 {
+	animation-delay: 400.00s;
+}
+
+.dm-delay-425-00 {
+	animation-delay: 425.00s;
+}
+
+.dm-delay-450-00 {
+	animation-delay: 450.00s;
+}
+
+.dm-delay-475-00 {
+	animation-delay: 475.00s;
+}
+
+.dm-delay-500-00 {
+	animation-delay: 500.00s;
+}
+
+.dm-delay-525-00 {
+	animation-delay: 525.00s;
+}
+
+.dm-delay-550-00 {
+	animation-delay: 550.00s;
+}
+
+.dm-delay-575-00 {
+	animation-delay: 575.00s;
+}
+
+.dm-delay-600-00 {
+	animation-delay: 600.00s;
+}
+
+.dm-delay-625-00 {
+	animation-delay: 625.00s;
+}
+
+.dm:before {
+	animation-delay: inherit;
+	animation-direction: normal;
+	animation-duration: inherit;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-timing-function: inherit;
+	background: black;
+	border-color: inherit;
+	border-style: inherit;
+	border-width: inherit;
+	content: '';
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+
+.dm:after {
+	animation-delay: inherit;
+	animation-direction: normal;
+	animation-duration: inherit;
+	animation-fill-mode: both;
+	animation-iteration-count: 1;
+	animation-timing-function: inherit;
+	background: black;
+	content: '';
+	display: block;
+	position: absolute;
+}
+
 .dm {
 	animation-delay: inherit;
 	animation-direction: normal;
@@ -21,105 +110,942 @@ HERE
 	position: relative;
 }
 
+.dm-duration-100-00 {
+	animation-duration: 100.00s;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-br:after,
+.dm-border-width-5 .dm.dm-ccw-br.dm-fade-white-white-white-black:after,
+.dm-border-width-5 .dm.dm-ccw-br:after,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-br:after,
+.dm-fade-white-white-white-black .dm.dm-ccw-br.dm-border-width-5:after,
+.dm.dm-ccw-br.dm-border-width-5.dm-fade-white-white-white-black:after,
+.dm.dm-ccw-br.dm-border-width-5:after,
+.dm.dm-ccw-br.dm-fade-white-white-white-black.dm-border-width-5:after {
+	animation-name: dm-ccw-br-5-FFFFFF-FFFFFF-FFFFFF-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-br:before,
+.dm-border-width-5 .dm.dm-ccw-br.dm-fade-white-white-white-black:before,
+.dm-border-width-5 .dm.dm-ccw-br:before,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-br:before,
+.dm-fade-white-white-white-black .dm.dm-ccw-br.dm-border-width-5:before,
+.dm.dm-ccw-br.dm-border-width-5.dm-fade-white-white-white-black:before,
+.dm.dm-ccw-br.dm-border-width-5:before,
+.dm.dm-ccw-br.dm-fade-white-white-white-black.dm-border-width-5:before {
+	animation-name: dm-ccw-br-5-FFFFFF-FFFFFF-FFFFFF-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-br,
+.dm-border-width-5 .dm.dm-ccw-br,
+.dm-border-width-5 .dm.dm-ccw-br.dm-fade-white-white-white-black,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-br,
+.dm-fade-white-white-white-black .dm.dm-ccw-br.dm-border-width-5,
+.dm.dm-ccw-br.dm-border-width-5,
+.dm.dm-ccw-br.dm-border-width-5.dm-fade-white-white-white-black,
+.dm.dm-ccw-br.dm-fade-white-white-white-black.dm-border-width-5 {
+	animation-name: dm-ccw-br-5-FFFFFF-FFFFFF-FFFFFF-000000;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-l:after,
+.dm-border-width-5 .dm.dm-ccw-l.dm-fade-white-white-white-black:after,
+.dm-border-width-5 .dm.dm-ccw-l:after,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-l:after,
+.dm-fade-white-white-white-black .dm.dm-ccw-l.dm-border-width-5:after,
+.dm.dm-ccw-l.dm-border-width-5.dm-fade-white-white-white-black:after,
+.dm.dm-ccw-l.dm-border-width-5:after,
+.dm.dm-ccw-l.dm-fade-white-white-white-black.dm-border-width-5:after {
+	animation-name: dm-ccw-l-5-FFFFFF-FFFFFF-FFFFFF-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-l:before,
+.dm-border-width-5 .dm.dm-ccw-l.dm-fade-white-white-white-black:before,
+.dm-border-width-5 .dm.dm-ccw-l:before,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-l:before,
+.dm-fade-white-white-white-black .dm.dm-ccw-l.dm-border-width-5:before,
+.dm.dm-ccw-l.dm-border-width-5.dm-fade-white-white-white-black:before,
+.dm.dm-ccw-l.dm-border-width-5:before,
+.dm.dm-ccw-l.dm-fade-white-white-white-black.dm-border-width-5:before {
+	animation-name: dm-ccw-l-5-FFFFFF-FFFFFF-FFFFFF-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-l,
+.dm-border-width-5 .dm.dm-ccw-l,
+.dm-border-width-5 .dm.dm-ccw-l.dm-fade-white-white-white-black,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-l,
+.dm-fade-white-white-white-black .dm.dm-ccw-l.dm-border-width-5,
+.dm.dm-ccw-l.dm-border-width-5,
+.dm.dm-ccw-l.dm-border-width-5.dm-fade-white-white-white-black,
+.dm.dm-ccw-l.dm-fade-white-white-white-black.dm-border-width-5 {
+	animation-name: dm-ccw-l-5-FFFFFF-FFFFFF-FFFFFF-000000;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-lb:after,
+.dm-border-width-5 .dm.dm-ccw-lb.dm-fade-white-white-white-black:after,
+.dm-border-width-5 .dm.dm-ccw-lb:after,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-lb:after,
+.dm-fade-white-white-white-black .dm.dm-ccw-lb.dm-border-width-5:after,
+.dm.dm-ccw-lb.dm-border-width-5.dm-fade-white-white-white-black:after,
+.dm.dm-ccw-lb.dm-border-width-5:after,
+.dm.dm-ccw-lb.dm-fade-white-white-white-black.dm-border-width-5:after {
+	animation-name: dm-ccw-lb-5-FFFFFF-FFFFFF-FFFFFF-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-lb:before,
+.dm-border-width-5 .dm.dm-ccw-lb.dm-fade-white-white-white-black:before,
+.dm-border-width-5 .dm.dm-ccw-lb:before,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-lb:before,
+.dm-fade-white-white-white-black .dm.dm-ccw-lb.dm-border-width-5:before,
+.dm.dm-ccw-lb.dm-border-width-5.dm-fade-white-white-white-black:before,
+.dm.dm-ccw-lb.dm-border-width-5:before,
+.dm.dm-ccw-lb.dm-fade-white-white-white-black.dm-border-width-5:before {
+	animation-name: dm-ccw-lb-5-FFFFFF-FFFFFF-FFFFFF-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-lb,
+.dm-border-width-5 .dm.dm-ccw-lb,
+.dm-border-width-5 .dm.dm-ccw-lb.dm-fade-white-white-white-black,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-lb,
+.dm-fade-white-white-white-black .dm.dm-ccw-lb.dm-border-width-5,
+.dm.dm-ccw-lb.dm-border-width-5,
+.dm.dm-ccw-lb.dm-border-width-5.dm-fade-white-white-white-black,
+.dm.dm-ccw-lb.dm-fade-white-white-white-black.dm-border-width-5 {
+	animation-name: dm-ccw-lb-5-FFFFFF-FFFFFF-FFFFFF-000000;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-lbr:after,
+.dm-border-width-5 .dm.dm-ccw-lbr.dm-fade-white-white-white-black:after,
+.dm-border-width-5 .dm.dm-ccw-lbr:after,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-lbr:after,
+.dm-fade-white-white-white-black .dm.dm-ccw-lbr.dm-border-width-5:after,
+.dm.dm-ccw-lbr.dm-border-width-5.dm-fade-white-white-white-black:after,
+.dm.dm-ccw-lbr.dm-border-width-5:after,
+.dm.dm-ccw-lbr.dm-fade-white-white-white-black.dm-border-width-5:after {
+	animation-name: dm-ccw-lbr-5-FFFFFF-FFFFFF-FFFFFF-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-lbr:before,
+.dm-border-width-5 .dm.dm-ccw-lbr.dm-fade-white-white-white-black:before,
+.dm-border-width-5 .dm.dm-ccw-lbr:before,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-lbr:before,
+.dm-fade-white-white-white-black .dm.dm-ccw-lbr.dm-border-width-5:before,
+.dm.dm-ccw-lbr.dm-border-width-5.dm-fade-white-white-white-black:before,
+.dm.dm-ccw-lbr.dm-border-width-5:before,
+.dm.dm-ccw-lbr.dm-fade-white-white-white-black.dm-border-width-5:before {
+	animation-name: dm-ccw-lbr-5-FFFFFF-FFFFFF-FFFFFF-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-lbr,
+.dm-border-width-5 .dm.dm-ccw-lbr,
+.dm-border-width-5 .dm.dm-ccw-lbr.dm-fade-white-white-white-black,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-lbr,
+.dm-fade-white-white-white-black .dm.dm-ccw-lbr.dm-border-width-5,
+.dm.dm-ccw-lbr.dm-border-width-5,
+.dm.dm-ccw-lbr.dm-border-width-5.dm-fade-white-white-white-black,
+.dm.dm-ccw-lbr.dm-fade-white-white-white-black.dm-border-width-5 {
+	animation-name: dm-ccw-lbr-5-FFFFFF-FFFFFF-FFFFFF-000000;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-rt:after,
+.dm-border-width-5 .dm.dm-ccw-rt.dm-fade-white-white-white-black:after,
+.dm-border-width-5 .dm.dm-ccw-rt:after,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-rt:after,
+.dm-fade-white-white-white-black .dm.dm-ccw-rt.dm-border-width-5:after,
+.dm.dm-ccw-rt.dm-border-width-5.dm-fade-white-white-white-black:after,
+.dm.dm-ccw-rt.dm-border-width-5:after,
+.dm.dm-ccw-rt.dm-fade-white-white-white-black.dm-border-width-5:after {
+	animation-name: dm-ccw-rt-5-FFFFFF-FFFFFF-FFFFFF-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-rt:before,
+.dm-border-width-5 .dm.dm-ccw-rt.dm-fade-white-white-white-black:before,
+.dm-border-width-5 .dm.dm-ccw-rt:before,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-rt:before,
+.dm-fade-white-white-white-black .dm.dm-ccw-rt.dm-border-width-5:before,
+.dm.dm-ccw-rt.dm-border-width-5.dm-fade-white-white-white-black:before,
+.dm.dm-ccw-rt.dm-border-width-5:before,
+.dm.dm-ccw-rt.dm-fade-white-white-white-black.dm-border-width-5:before {
+	animation-name: dm-ccw-rt-5-FFFFFF-FFFFFF-FFFFFF-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-rt,
+.dm-border-width-5 .dm.dm-ccw-rt,
+.dm-border-width-5 .dm.dm-ccw-rt.dm-fade-white-white-white-black,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-rt,
+.dm-fade-white-white-white-black .dm.dm-ccw-rt.dm-border-width-5,
+.dm.dm-ccw-rt.dm-border-width-5,
+.dm.dm-ccw-rt.dm-border-width-5.dm-fade-white-white-white-black,
+.dm.dm-ccw-rt.dm-fade-white-white-white-black.dm-border-width-5 {
+	animation-name: dm-ccw-rt-5-FFFFFF-FFFFFF-FFFFFF-000000;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-tl:after,
+.dm-border-width-5 .dm.dm-ccw-tl.dm-fade-white-white-white-black:after,
+.dm-border-width-5 .dm.dm-ccw-tl:after,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-tl:after,
+.dm-fade-white-white-white-black .dm.dm-ccw-tl.dm-border-width-5:after,
+.dm.dm-ccw-tl.dm-border-width-5.dm-fade-white-white-white-black:after,
+.dm.dm-ccw-tl.dm-border-width-5:after,
+.dm.dm-ccw-tl.dm-fade-white-white-white-black.dm-border-width-5:after {
+	animation-name: dm-ccw-tl-5-FFFFFF-FFFFFF-FFFFFF-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-tl:before,
+.dm-border-width-5 .dm.dm-ccw-tl.dm-fade-white-white-white-black:before,
+.dm-border-width-5 .dm.dm-ccw-tl:before,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-tl:before,
+.dm-fade-white-white-white-black .dm.dm-ccw-tl.dm-border-width-5:before,
+.dm.dm-ccw-tl.dm-border-width-5.dm-fade-white-white-white-black:before,
+.dm.dm-ccw-tl.dm-border-width-5:before,
+.dm.dm-ccw-tl.dm-fade-white-white-white-black.dm-border-width-5:before {
+	animation-name: dm-ccw-tl-5-FFFFFF-FFFFFF-FFFFFF-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-tl,
+.dm-border-width-5 .dm.dm-ccw-tl,
+.dm-border-width-5 .dm.dm-ccw-tl.dm-fade-white-white-white-black,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-tl,
+.dm-fade-white-white-white-black .dm.dm-ccw-tl.dm-border-width-5,
+.dm.dm-ccw-tl.dm-border-width-5,
+.dm.dm-ccw-tl.dm-border-width-5.dm-fade-white-white-white-black,
+.dm.dm-ccw-tl.dm-fade-white-white-white-black.dm-border-width-5 {
+	animation-name: dm-ccw-tl-5-FFFFFF-FFFFFF-FFFFFF-000000;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-tlb:after,
+.dm-border-width-5 .dm.dm-ccw-tlb.dm-fade-white-white-white-black:after,
+.dm-border-width-5 .dm.dm-ccw-tlb:after,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-tlb:after,
+.dm-fade-white-white-white-black .dm.dm-ccw-tlb.dm-border-width-5:after,
+.dm.dm-ccw-tlb.dm-border-width-5.dm-fade-white-white-white-black:after,
+.dm.dm-ccw-tlb.dm-border-width-5:after,
+.dm.dm-ccw-tlb.dm-fade-white-white-white-black.dm-border-width-5:after {
+	animation-name: dm-ccw-tlb-5-FFFFFF-FFFFFF-FFFFFF-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-tlb:before,
+.dm-border-width-5 .dm.dm-ccw-tlb.dm-fade-white-white-white-black:before,
+.dm-border-width-5 .dm.dm-ccw-tlb:before,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-tlb:before,
+.dm-fade-white-white-white-black .dm.dm-ccw-tlb.dm-border-width-5:before,
+.dm.dm-ccw-tlb.dm-border-width-5.dm-fade-white-white-white-black:before,
+.dm.dm-ccw-tlb.dm-border-width-5:before,
+.dm.dm-ccw-tlb.dm-fade-white-white-white-black.dm-border-width-5:before {
+	animation-name: dm-ccw-tlb-5-FFFFFF-FFFFFF-FFFFFF-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-ccw-tlb,
+.dm-border-width-5 .dm.dm-ccw-tlb,
+.dm-border-width-5 .dm.dm-ccw-tlb.dm-fade-white-white-white-black,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-ccw-tlb,
+.dm-fade-white-white-white-black .dm.dm-ccw-tlb.dm-border-width-5,
+.dm.dm-ccw-tlb.dm-border-width-5,
+.dm.dm-ccw-tlb.dm-border-width-5.dm-fade-white-white-white-black,
+.dm.dm-ccw-tlb.dm-fade-white-white-white-black.dm-border-width-5 {
+	animation-name: dm-ccw-tlb-5-FFFFFF-FFFFFF-FFFFFF-000000;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-cw-blt:after,
+.dm-border-width-5 .dm.dm-cw-blt.dm-fade-white-white-white-black:after,
+.dm-border-width-5 .dm.dm-cw-blt:after,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-cw-blt:after,
+.dm-fade-white-white-white-black .dm.dm-cw-blt.dm-border-width-5:after,
+.dm.dm-cw-blt.dm-border-width-5.dm-fade-white-white-white-black:after,
+.dm.dm-cw-blt.dm-border-width-5:after,
+.dm.dm-cw-blt.dm-fade-white-white-white-black.dm-border-width-5:after {
+	animation-name: dm-cw-blt-5-FFFFFF-FFFFFF-FFFFFF-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-cw-blt:before,
+.dm-border-width-5 .dm.dm-cw-blt.dm-fade-white-white-white-black:before,
+.dm-border-width-5 .dm.dm-cw-blt:before,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-cw-blt:before,
+.dm-fade-white-white-white-black .dm.dm-cw-blt.dm-border-width-5:before,
+.dm.dm-cw-blt.dm-border-width-5.dm-fade-white-white-white-black:before,
+.dm.dm-cw-blt.dm-border-width-5:before,
+.dm.dm-cw-blt.dm-fade-white-white-white-black.dm-border-width-5:before {
+	animation-name: dm-cw-blt-5-FFFFFF-FFFFFF-FFFFFF-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-cw-blt,
+.dm-border-width-5 .dm.dm-cw-blt,
+.dm-border-width-5 .dm.dm-cw-blt.dm-fade-white-white-white-black,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-cw-blt,
+.dm-fade-white-white-white-black .dm.dm-cw-blt.dm-border-width-5,
+.dm.dm-cw-blt.dm-border-width-5,
+.dm.dm-cw-blt.dm-border-width-5.dm-fade-white-white-white-black,
+.dm.dm-cw-blt.dm-fade-white-white-white-black.dm-border-width-5 {
+	animation-name: dm-cw-blt-5-FFFFFF-FFFFFF-FFFFFF-000000;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-cw-lt:after,
+.dm-border-width-5 .dm.dm-cw-lt.dm-fade-white-white-white-black:after,
+.dm-border-width-5 .dm.dm-cw-lt:after,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-cw-lt:after,
+.dm-fade-white-white-white-black .dm.dm-cw-lt.dm-border-width-5:after,
+.dm.dm-cw-lt.dm-border-width-5.dm-fade-white-white-white-black:after,
+.dm.dm-cw-lt.dm-border-width-5:after,
+.dm.dm-cw-lt.dm-fade-white-white-white-black.dm-border-width-5:after {
+	animation-name: dm-cw-lt-5-FFFFFF-FFFFFF-FFFFFF-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-cw-lt:before,
+.dm-border-width-5 .dm.dm-cw-lt.dm-fade-white-white-white-black:before,
+.dm-border-width-5 .dm.dm-cw-lt:before,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-cw-lt:before,
+.dm-fade-white-white-white-black .dm.dm-cw-lt.dm-border-width-5:before,
+.dm.dm-cw-lt.dm-border-width-5.dm-fade-white-white-white-black:before,
+.dm.dm-cw-lt.dm-border-width-5:before,
+.dm.dm-cw-lt.dm-fade-white-white-white-black.dm-border-width-5:before {
+	animation-name: dm-cw-lt-5-FFFFFF-FFFFFF-FFFFFF-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-cw-lt,
+.dm-border-width-5 .dm.dm-cw-lt,
+.dm-border-width-5 .dm.dm-cw-lt.dm-fade-white-white-white-black,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-cw-lt,
+.dm-fade-white-white-white-black .dm.dm-cw-lt.dm-border-width-5,
+.dm.dm-cw-lt.dm-border-width-5,
+.dm.dm-cw-lt.dm-border-width-5.dm-fade-white-white-white-black,
+.dm.dm-cw-lt.dm-fade-white-white-white-black.dm-border-width-5 {
+	animation-name: dm-cw-lt-5-FFFFFF-FFFFFF-FFFFFF-000000;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-cw-rb:after,
+.dm-border-width-5 .dm.dm-cw-rb.dm-fade-white-white-white-black:after,
+.dm-border-width-5 .dm.dm-cw-rb:after,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-cw-rb:after,
+.dm-fade-white-white-white-black .dm.dm-cw-rb.dm-border-width-5:after,
+.dm.dm-cw-rb.dm-border-width-5.dm-fade-white-white-white-black:after,
+.dm.dm-cw-rb.dm-border-width-5:after,
+.dm.dm-cw-rb.dm-fade-white-white-white-black.dm-border-width-5:after {
+	animation-name: dm-cw-rb-5-FFFFFF-FFFFFF-FFFFFF-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-cw-rb:before,
+.dm-border-width-5 .dm.dm-cw-rb.dm-fade-white-white-white-black:before,
+.dm-border-width-5 .dm.dm-cw-rb:before,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-cw-rb:before,
+.dm-fade-white-white-white-black .dm.dm-cw-rb.dm-border-width-5:before,
+.dm.dm-cw-rb.dm-border-width-5.dm-fade-white-white-white-black:before,
+.dm.dm-cw-rb.dm-border-width-5:before,
+.dm.dm-cw-rb.dm-fade-white-white-white-black.dm-border-width-5:before {
+	animation-name: dm-cw-rb-5-FFFFFF-FFFFFF-FFFFFF-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-cw-rb,
+.dm-border-width-5 .dm.dm-cw-rb,
+.dm-border-width-5 .dm.dm-cw-rb.dm-fade-white-white-white-black,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-cw-rb,
+.dm-fade-white-white-white-black .dm.dm-cw-rb.dm-border-width-5,
+.dm.dm-cw-rb.dm-border-width-5,
+.dm.dm-cw-rb.dm-border-width-5.dm-fade-white-white-white-black,
+.dm.dm-cw-rb.dm-fade-white-white-white-black.dm-border-width-5 {
+	animation-name: dm-cw-rb-5-FFFFFF-FFFFFF-FFFFFF-000000;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-cw-rbl:after,
+.dm-border-width-5 .dm.dm-cw-rbl.dm-fade-white-white-white-black:after,
+.dm-border-width-5 .dm.dm-cw-rbl:after,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-cw-rbl:after,
+.dm-fade-white-white-white-black .dm.dm-cw-rbl.dm-border-width-5:after,
+.dm.dm-cw-rbl.dm-border-width-5.dm-fade-white-white-white-black:after,
+.dm.dm-cw-rbl.dm-border-width-5:after,
+.dm.dm-cw-rbl.dm-fade-white-white-white-black.dm-border-width-5:after {
+	animation-name: dm-cw-rbl-5-FFFFFF-FFFFFF-FFFFFF-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-cw-rbl:before,
+.dm-border-width-5 .dm.dm-cw-rbl.dm-fade-white-white-white-black:before,
+.dm-border-width-5 .dm.dm-cw-rbl:before,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-cw-rbl:before,
+.dm-fade-white-white-white-black .dm.dm-cw-rbl.dm-border-width-5:before,
+.dm.dm-cw-rbl.dm-border-width-5.dm-fade-white-white-white-black:before,
+.dm.dm-cw-rbl.dm-border-width-5:before,
+.dm.dm-cw-rbl.dm-fade-white-white-white-black.dm-border-width-5:before {
+	animation-name: dm-cw-rbl-5-FFFFFF-FFFFFF-FFFFFF-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-cw-rbl,
+.dm-border-width-5 .dm.dm-cw-rbl,
+.dm-border-width-5 .dm.dm-cw-rbl.dm-fade-white-white-white-black,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-cw-rbl,
+.dm-fade-white-white-white-black .dm.dm-cw-rbl.dm-border-width-5,
+.dm.dm-cw-rbl.dm-border-width-5,
+.dm.dm-cw-rbl.dm-border-width-5.dm-fade-white-white-white-black,
+.dm.dm-cw-rbl.dm-fade-white-white-white-black.dm-border-width-5 {
+	animation-name: dm-cw-rbl-5-FFFFFF-FFFFFF-FFFFFF-000000;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-cw-tr:after,
+.dm-border-width-5 .dm.dm-cw-tr.dm-fade-white-white-white-black:after,
+.dm-border-width-5 .dm.dm-cw-tr:after,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-cw-tr:after,
+.dm-fade-white-white-white-black .dm.dm-cw-tr.dm-border-width-5:after,
+.dm.dm-cw-tr.dm-border-width-5.dm-fade-white-white-white-black:after,
+.dm.dm-cw-tr.dm-border-width-5:after,
+.dm.dm-cw-tr.dm-fade-white-white-white-black.dm-border-width-5:after {
+	animation-name: dm-cw-tr-5-FFFFFF-FFFFFF-FFFFFF-000000-after;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-cw-tr:before,
+.dm-border-width-5 .dm.dm-cw-tr.dm-fade-white-white-white-black:before,
+.dm-border-width-5 .dm.dm-cw-tr:before,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-cw-tr:before,
+.dm-fade-white-white-white-black .dm.dm-cw-tr.dm-border-width-5:before,
+.dm.dm-cw-tr.dm-border-width-5.dm-fade-white-white-white-black:before,
+.dm.dm-cw-tr.dm-border-width-5:before,
+.dm.dm-cw-tr.dm-fade-white-white-white-black.dm-border-width-5:before {
+	animation-name: dm-cw-tr-5-FFFFFF-FFFFFF-FFFFFF-000000-before;
+}
+
+.dm-border-width-5 .dm-fade-white-white-white-black .dm.dm-cw-tr,
+.dm-border-width-5 .dm.dm-cw-tr,
+.dm-border-width-5 .dm.dm-cw-tr.dm-fade-white-white-white-black,
+.dm-fade-white-white-white-black .dm-border-width-5 .dm.dm-cw-tr,
+.dm-fade-white-white-white-black .dm.dm-cw-tr.dm-border-width-5,
+.dm.dm-cw-tr.dm-border-width-5,
+.dm.dm-cw-tr.dm-border-width-5.dm-fade-white-white-white-black,
+.dm.dm-cw-tr.dm-fade-white-white-white-black.dm-border-width-5 {
+	animation-name: dm-cw-tr-5-FFFFFF-FFFFFF-FFFFFF-000000;
+}
 
 .dm-animation-timing-linear {
+	animation-timing-function: linear;
 }
 
-
-.dm-border-color-black .dm:after {
+.dm-border-color-black .dm:after,
+.dm-border-color-black .dm:before,
+.dm-border-color-black:after,
+.dm-border-color-black:before {
+	background: #000000;
 }
 
-
-.dm-border-color-black .dm:before {
+.dm-border-color-1C55BF .dm:after,
+.dm-border-color-1C55BF .dm:before,
+.dm-border-color-1C55BF:after,
+.dm-border-color-1C55BF:before {
+	background: #1C55BF;
 }
 
+.dm-border-color-DE1718 .dm:after,
+.dm-border-color-DE1718 .dm:before,
+.dm-border-color-DE1718:after,
+.dm-border-color-DE1718:before {
+	background: #DE1718;
+}
 
 .dm-border-color-black {
+	border-color: #000000;
 }
 
-
-.dm-border-color-black:after {
+.dm-border-color-1C55BF {
+	border-color: #1C55BF;
 }
 
-
-.dm-border-color-black:before {
+.dm-border-color-DE1718 {
+	border-color: #DE1718;
 }
-
 
 .dm-border-style-solid {
-}
-
-
-.dm-border-width-1 {
-}
-
-
-.dm-delay-0-00 {
-}
-
-
-.dm-duration-1000-00 {
-}
-
-
-.dm-wrapper {
-	animation-duration: 1s;
-	animation-timing-function: linear;
-	border-color: black;
 	border-style: solid;
-	border-width: 1px;
 }
 
-
-.dm:after {
-	animation-delay: inherit;
-	animation-direction: normal;
-	animation-duration: inherit;
-	animation-fill-mode: both;
-	animation-iteration-count: 1;
-	animation-timing-function: inherit;
-	content: '';
-	display: block;
-	position: absolute;
+.dm-border-width-5 {
+	border-width: 5px;
 }
 
-
-.dm:before {
-	animation-delay: inherit;
-	animation-direction: normal;
-	animation-duration: inherit;
-	animation-fill-mode: both;
-	animation-iteration-count: 1;
-	animation-timing-function: inherit;
-	border-color: inherit;
-	border-style: inherit;
-	border-width: inherit;
-	content: '';
-	display: block;
-	position: absolute;
-	z-index: 1;
-}
-
-
-@keyframes dm-ccw-rtl-1-1-FFFFFF-FFFFFF-FFFFFF-000000 {
+@keyframes dm-ccw-br-5-FFFFFF-FFFFFF-FFFFFF-000000 {
 	0.00% {
 		background-color: #FFFFFF;
-		border-bottom-color:: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: #FFFFFF;
+	}
+	48.99% {
+		border-bottom-color: transparent;
+		border-right-color: transparent;
+	}
+	49.00%, 97.99% {
+		border-bottom-color: #000000;
+		border-right-color: transparent;
+	}
+	70.00% {
+		background-color: #FFFFFF;
+		color: #FFFFFF;
+	}
+	98.00% {
+		border-bottom-color: #000000;
+		border-right-color: #000000;
+	}
+	100.00% {
+		background-color: #FFFFFF;
+		border-left-color: transparent;
+		border-top-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-ccw-br-5-FFFFFF-FFFFFF-FFFFFF-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: -5px;
+		display: block;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-br-5-FFFFFF-FFFFFF-FFFFFF-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		top: auto;
+		width: 0;
+	}
+	49.99% {
+		bottom: auto;
+		height: 100%;
+		top: auto;
+		width: 0;
+	}
+	50.00% {
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 100%;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 0;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		height: 5px;
+		left: auto;
+		right: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-l-5-FFFFFF-FFFFFF-FFFFFF-000000 {
+	0.00% {
+		background-color: #FFFFFF;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: #FFFFFF;
+	}
+	70.00% {
+		background-color: #FFFFFF;
+		color: #FFFFFF;
+	}
+	97.99% {
+		border-left-color: transparent;
+	}
+	98.00% {
+		border-left-color: #DE1718;
+	}
+	100.00% {
+		background-color: #FFFFFF;
+		border-bottom-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-ccw-l-5-FFFFFF-FFFFFF-FFFFFF-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: auto;
+		display: block;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-l-5-FFFFFF-FFFFFF-FFFFFF-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 100%;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: auto;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-lb-5-FFFFFF-FFFFFF-FFFFFF-000000 {
+	0.00% {
+		background-color: #FFFFFF;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: #FFFFFF;
+	}
+	48.99% {
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+	}
+	49.00%, 97.99% {
+		border-bottom-color: transparent;
+		border-left-color: #000000;
+	}
+	70.00% {
+		background-color: #FFFFFF;
+		color: #FFFFFF;
+	}
+	98.00% {
+		border-bottom-color: #000000;
+		border-left-color: #000000;
+	}
+	100.00% {
+		background-color: #FFFFFF;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-ccw-lb-5-FFFFFF-FFFFFF-FFFFFF-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: auto;
+		display: block;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-lb-5-FFFFFF-FFFFFF-FFFFFF-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		height: 0;
+		left: auto;
+		right: auto;
+		width: 0;
+	}
+	49.99% {
+		height: 0;
+		left: auto;
+		right: auto;
+		width: 100%;
+	}
+	50.00% {
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 100%;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: auto;
+		height: 5px;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-lbr-5-FFFFFF-FFFFFF-FFFFFF-000000 {
+	0.00% {
+		background-color: #FFFFFF;
+		border-bottom-color: transparent;
 		border-left-color: transparent;
 		border-right-color: transparent;
 		border-top-color: transparent;
 		color: #FFFFFF;
 	}
 	32.66% {
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+	}
+	32.67%, 65.32% {
+		border-bottom-color: transparent;
+		border-left-color: #000000;
+	}
+	65.33%, 97.99% {
+		border-bottom-color: #000000;
+		border-right-color: transparent;
+	}
+	70.00% {
+		background-color: #FFFFFF;
+		color: #FFFFFF;
+	}
+	98.00% {
+		border-bottom-color: #000000;
+		border-left-color: #000000;
+		border-right-color: #000000;
+	}
+	100.00% {
+		background-color: #FFFFFF;
+		border-top-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-ccw-lbr-5-FFFFFF-FFFFFF-FFFFFF-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: auto;
+		display: block;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-lbr-5-FFFFFF-FFFFFF-FFFFFF-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	33.65% {
+		bottom: auto;
+		height: 100%;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	33.66% {
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	66.32% {
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 100%;
+	}
+	66.33% {
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 100%;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 0;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: auto;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-rt-5-FFFFFF-FFFFFF-FFFFFF-000000 {
+	0.00% {
+		background-color: #FFFFFF;
+		border-bottom-color: transparent;
 		border-left-color: transparent;
 		border-right-color: transparent;
 		border-top-color: transparent;
+		color: #FFFFFF;
 	}
-	32.67%, 65.32% {
-		border-right-color: #000000;
+	48.99% {
+		border-right-color: transparent;
 		border-top-color: transparent;
 	}
-	65.33%, 97.99% {
+	49.00%, 97.99% {
+		border-right-color: #DE1718;
+		border-top-color: transparent;
+	}
+	70.00% {
+		background-color: #FFFFFF;
+		color: #FFFFFF;
+	}
+	98.00% {
+		border-right-color: #DE1718;
+		border-top-color: #DE1718;
+	}
+	100.00% {
+		background-color: #FFFFFF;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-ccw-rt-5-FFFFFF-FFFFFF-FFFFFF-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: -5px;
+		display: block;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-rt-5-FFFFFF-FFFFFF-FFFFFF-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		height: 0;
+		left: auto;
+		right: auto;
+		width: 0;
+	}
+	49.99% {
+		height: 0;
+		left: auto;
+		right: auto;
+		width: 100%;
+	}
+	50.00% {
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 100%;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: auto;
+		height: 5px;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-tl-5-FFFFFF-FFFFFF-FFFFFF-000000 {
+	0.00% {
+		background-color: #FFFFFF;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: #FFFFFF;
+	}
+	48.99% {
+		border-left-color: transparent;
+		border-top-color: transparent;
+	}
+	49.00%, 97.99% {
 		border-left-color: transparent;
 		border-top-color: #000000;
 	}
@@ -129,95 +1055,712 @@ HERE
 	}
 	98.00% {
 		border-left-color: #000000;
-		border-right-color: #000000;
 		border-top-color: #000000;
 	}
 	100.00% {
 		background-color: #FFFFFF;
-		border-bottom-color:: transparent;
+		border-bottom-color: transparent;
+		border-right-color: transparent;
 		color: #000000;
 	}
 }
 
-@keyframes dm-ccw-rtl-1-1-FFFFFF-FFFFFF-FFFFFF-000000-after {
+@keyframes dm-ccw-tl-5-FFFFFF-FFFFFF-FFFFFF-000000-after {
 	0.00% {
 		display: none;
 		height: 0;
 		width: 0;
 	}
 	1.00%, 100.00% {
-		bottom: -1px;
+		bottom: auto;
 		display: block;
-		height: 1px;
+		height: 5px;
 		left: auto;
-		right: -1px;
-		top: auto;
-		width: 1px;
+		right: -5px;
+		top: -5px;
+		width: 5px;
 	}
 }
 
-@keyframes dm-ccw-rtl-1-1-FFFFFF-FFFFFF-FFFFFF-000000-before {
+@keyframes dm-ccw-tl-5-FFFFFF-FFFFFF-FFFFFF-000000-before {
 	0.00% {
 		border-width: 0 0 0 0;
 	}
 	1.00% {
-		border-width: 1px 1px 0 0;
-		bottom: -1px;
+		border-width: 5px 5px 0 0;
+		bottom: auto;
 		height: 0;
-		left: auto;
-		right: -1px;
 		top: auto;
 		width: 0;
 	}
-	33.65% {
-		bottom: -1px;
+	49.99% {
+		bottom: auto;
 		height: 100%;
-		left: auto;
-		right: -1px;
 		top: auto;
 		width: 0;
 	}
-	33.66% {
+	50.00% {
 		bottom: auto;
 		height: 0;
-		left: auto;
-		right: -1px;
-		top: -1px;
-		width: 0;
-	}
-	66.32% {
-		bottom: auto;
-		height: 0;
-		left: auto;
-		right: -1px;
-		top: -1px;
-		width: 100%;
-	}
-	66.33% {
-		bottom: auto;
-		height: 0;
-		left: -1px;
+		left: -5px;
 		right: auto;
-		top: -1px;
+		top: -5px;
 		width: 0;
 	}
 	98.99% {
-		border-width: 1px 1px 0 0;
+		border-width: 5px 5px 0 0;
 		bottom: auto;
 		height: 100%;
-		left: -1px;
+		left: -5px;
 		right: auto;
-		top: -1px;
+		top: -5px;
 		width: 0;
 	}
 	100.00% {
 		border-width: 0 0 0 0;
-		bottom: -1px;
-		height: 1px;
-		left: -1px;
+		height: 5px;
+		left: auto;
+		right: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-tlb-5-FFFFFF-FFFFFF-FFFFFF-000000 {
+	0.00% {
+		background-color: #FFFFFF;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: #FFFFFF;
+	}
+	32.66% {
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-top-color: transparent;
+	}
+	32.67%, 65.32% {
+		border-left-color: transparent;
+		border-top-color: #000000;
+	}
+	65.33%, 97.99% {
+		border-bottom-color: transparent;
+		border-left-color: #000000;
+	}
+	70.00% {
+		background-color: #FFFFFF;
+		color: #FFFFFF;
+	}
+	98.00% {
+		border-bottom-color: #000000;
+		border-left-color: #000000;
+		border-top-color: #000000;
+	}
+	100.00% {
+		background-color: #FFFFFF;
+		border-right-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-ccw-tlb-5-FFFFFF-FFFFFF-FFFFFF-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: auto;
+		display: block;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-ccw-tlb-5-FFFFFF-FFFFFF-FFFFFF-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 0;
+	}
+	33.65% {
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 100%;
+	}
+	33.66% {
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	66.32% {
+		bottom: auto;
+		height: 100%;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	66.33% {
+		bottom: -5px;
+		height: 0;
+		left: -5px;
 		right: auto;
 		top: auto;
-		width: 1px;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 100%;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: -5px;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-blt-5-FFFFFF-FFFFFF-FFFFFF-000000 {
+	0.00% {
+		background-color: #FFFFFF;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: #FFFFFF;
+	}
+	32.66% {
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-top-color: transparent;
+	}
+	32.67%, 65.32% {
+		border-bottom-color: #000000;
+		border-left-color: transparent;
+	}
+	65.33%, 97.99% {
+		border-left-color: #000000;
+		border-top-color: transparent;
+	}
+	70.00% {
+		background-color: #FFFFFF;
+		color: #FFFFFF;
+	}
+	98.00% {
+		border-bottom-color: #000000;
+		border-left-color: #000000;
+		border-top-color: #000000;
+	}
+	100.00% {
+		background-color: #FFFFFF;
+		border-right-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-cw-blt-5-FFFFFF-FFFFFF-FFFFFF-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: -5px;
+		display: block;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-blt-5-FFFFFF-FFFFFF-FFFFFF-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 0;
+	}
+	33.65% {
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 100%;
+	}
+	33.66% {
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	66.32% {
+		bottom: -5px;
+		height: 100%;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	66.33% {
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 100%;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: auto;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-lt-5-FFFFFF-FFFFFF-FFFFFF-000000 {
+	0.00% {
+		background-color: #FFFFFF;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: #FFFFFF;
+	}
+	48.99% {
+		border-left-color: transparent;
+		border-top-color: transparent;
+	}
+	49.00%, 97.99% {
+		border-left-color: #1C55BF;
+		border-top-color: transparent;
+	}
+	70.00% {
+		background-color: #FFFFFF;
+		color: #FFFFFF;
+	}
+	98.00% {
+		border-left-color: #1C55BF;
+		border-top-color: #1C55BF;
+	}
+	100.00% {
+		background-color: #FFFFFF;
+		border-bottom-color: transparent;
+		border-right-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-cw-lt-5-FFFFFF-FFFFFF-FFFFFF-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: -5px;
+		display: block;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-lt-5-FFFFFF-FFFFFF-FFFFFF-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		height: 0;
+		left: auto;
+		right: auto;
+		width: 0;
+	}
+	49.99% {
+		height: 0;
+		left: auto;
+		right: auto;
+		width: 100%;
+	}
+	50.00% {
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 100%;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: auto;
+		height: 5px;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-rb-5-FFFFFF-FFFFFF-FFFFFF-000000 {
+	0.00% {
+		background-color: #FFFFFF;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: #FFFFFF;
+	}
+	48.99% {
+		border-bottom-color: transparent;
+		border-right-color: transparent;
+	}
+	49.00%, 97.99% {
+		border-bottom-color: transparent;
+		border-right-color: #000000;
+	}
+	70.00% {
+		background-color: #FFFFFF;
+		color: #FFFFFF;
+	}
+	98.00% {
+		border-bottom-color: #000000;
+		border-right-color: #000000;
+	}
+	100.00% {
+		background-color: #FFFFFF;
+		border-left-color: transparent;
+		border-top-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-cw-rb-5-FFFFFF-FFFFFF-FFFFFF-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: auto;
+		display: block;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-rb-5-FFFFFF-FFFFFF-FFFFFF-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		height: 0;
+		left: auto;
+		right: auto;
+		width: 0;
+	}
+	49.99% {
+		height: 0;
+		left: auto;
+		right: auto;
+		width: 100%;
+	}
+	50.00% {
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 100%;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: auto;
+		height: 5px;
+		top: auto;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-rbl-5-FFFFFF-FFFFFF-FFFFFF-000000 {
+	0.00% {
+		background-color: #FFFFFF;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: #FFFFFF;
+	}
+	32.66% {
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+	}
+	32.67%, 65.32% {
+		border-bottom-color: transparent;
+		border-right-color: #000000;
+	}
+	65.33%, 97.99% {
+		border-bottom-color: #000000;
+		border-left-color: transparent;
+	}
+	70.00% {
+		background-color: #FFFFFF;
+		color: #FFFFFF;
+	}
+	98.00% {
+		border-bottom-color: #000000;
+		border-left-color: #000000;
+		border-right-color: #000000;
+	}
+	100.00% {
+		background-color: #FFFFFF;
+		border-top-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-cw-rbl-5-FFFFFF-FFFFFF-FFFFFF-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: auto;
+		display: block;
+		height: 5px;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-rbl-5-FFFFFF-FFFFFF-FFFFFF-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 0;
+	}
+	33.65% {
+		bottom: auto;
+		height: 100%;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 0;
+	}
+	33.66% {
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 0;
+	}
+	66.32% {
+		bottom: -5px;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: auto;
+		width: 100%;
+	}
+	66.33% {
+		bottom: -5px;
+		height: 0;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: -5px;
+		height: 100%;
+		left: -5px;
+		right: auto;
+		top: auto;
+		width: 0;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		bottom: auto;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-tr-5-FFFFFF-FFFFFF-FFFFFF-000000 {
+	0.00% {
+		background-color: #FFFFFF;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: #FFFFFF;
+	}
+	48.99% {
+		border-right-color: transparent;
+		border-top-color: transparent;
+	}
+	49.00%, 97.99% {
+		border-right-color: transparent;
+		border-top-color: #DE1718;
+	}
+	70.00% {
+		background-color: #FFFFFF;
+		color: #FFFFFF;
+	}
+	98.00% {
+		border-right-color: #DE1718;
+		border-top-color: #DE1718;
+	}
+	100.00% {
+		background-color: #FFFFFF;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		color: #000000;
+	}
+}
+
+@keyframes dm-cw-tr-5-FFFFFF-FFFFFF-FFFFFF-000000-after {
+	0.00% {
+		display: none;
+		height: 0;
+		width: 0;
+	}
+	1.00%, 100.00% {
+		bottom: auto;
+		display: block;
+		height: 5px;
+		left: -5px;
+		right: auto;
+		top: -5px;
+		width: 5px;
+	}
+}
+
+@keyframes dm-cw-tr-5-FFFFFF-FFFFFF-FFFFFF-000000-before {
+	0.00% {
+		border-width: 0 0 0 0;
+	}
+	1.00% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 0;
+		top: auto;
+		width: 0;
+	}
+	49.99% {
+		bottom: auto;
+		height: 100%;
+		top: auto;
+		width: 0;
+	}
+	50.00% {
+		bottom: auto;
+		height: 0;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 0;
+	}
+	98.99% {
+		border-width: 5px 5px 0 0;
+		bottom: auto;
+		height: 100%;
+		left: auto;
+		right: -5px;
+		top: -5px;
+		width: 0;
+	}
+	100.00% {
+		border-width: 0 0 0 0;
+		height: 5px;
+		left: auto;
+		right: auto;
+		width: 5px;
 	}
 }
 

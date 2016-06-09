@@ -28,29 +28,29 @@ public class CssProp implements Comparable<CssProp> {
 		StringBuilder sb = new StringBuilder();
 		for(CssRule crs : condensed){
 			sb.append(crs.toString());
-			sb.append("\n\n");
+			sb.append("\n");
 		}
 		return sb.toString();
 	}
 	
-	public static List<CssRule> condense(List<CssProp> rules){
+	public static List<CssRule> condense(List<CssProp> properties){
 		List<CssRule> result = new ArrayList<CssRule>();
-		if (rules.size() == 0){
+		if (properties.size() == 0){
 			return result;
 		}
-		Collections.sort(rules);
+		Collections.sort(properties);
 		List<CssProp> running = new ArrayList<CssProp>();
-		running.add(rules.get(0));
+		running.add(properties.get(0));
 		int i = 1;
-		while (i < rules.size()){
-			while (i < rules.size() && rules.get(i).compareTo(running.get(0)) == 0){
-				running.add(rules.get(i));
+		while (i < properties.size()){
+			while (i < properties.size() && properties.get(i).compareTo(running.get(0)) == 0){
+				running.add(properties.get(i));
 				i++;
 			}
-			if (i < rules.size()){
+			if (i < properties.size()){
 				result.add(new CssRule(running));
 				running.clear();
-				running.add(rules.get(i));
+				running.add(properties.get(i));
 				i++;
 			}
 		}
@@ -72,23 +72,27 @@ public class CssProp implements Comparable<CssProp> {
 		public CssRule (List<CssProp> rules){
 			selector = rules.get(0).selector;
 			properties = new HashMap<String, String>();
-			for (int i = 1; i < rules.size(); i++){
-				if (!selector.equals(rules.get(i).selector)){
+			for (CssProp cp : rules){
+				if (!selector.equals(cp.selector)){
 					throw new RuntimeException("A CSSRules was created with different selectors!");
 				}
-				properties.put(rules.get(i).property, rules.get(i).value);
+				properties.put(cp.property, cp.value);
 			}
-			this.body = toString();
+			this.body = getBody();
 		}
 		
-		public String toString(){
+		public String getBody(){
 			StringBuilder body = new StringBuilder();
 			List<String> props = new ArrayList<String>(properties.keySet());
 			Collections.sort(props);
 			for(String prop : props){
 				body.append(String.format("\t%s: %s;\n", prop, properties.get(prop)));
 			}
-			return String.format("%s {\n%s}\n", selector, body.toString());
+			return body.toString();
+		}
+		
+		public String toString(){ 
+			return String.format("%s {\n%s}\n", selector, body);
 		}
 
 		@Override
@@ -98,10 +102,15 @@ public class CssProp implements Comparable<CssProp> {
 		
 		public CssRule merge(CssRule that){
 			this.selector = this.selector + ",\n" + that.selector;
+			if (!this.body.equals(that.body)){
+				throw new RuntimeException("Two CSS Rules tried to merge that should not have.");
+			}
+			
 			return this;
 		}
 		
 		public static List<CssRule> condense(List<CssRule> rules){
+
 			List<CssRule> result = new ArrayList<CssRule>();
 			Collections.sort(rules);
 			CssRule last = rules.get(0);
@@ -114,6 +123,7 @@ public class CssProp implements Comparable<CssProp> {
 				}
 			}
 			result.add(last);
+			
 			return result;
 		}
 	}

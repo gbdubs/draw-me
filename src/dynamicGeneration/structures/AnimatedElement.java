@@ -63,15 +63,13 @@ public class AnimatedElement {
 		}
 		
 		try {
-			delay = Double.parseDouble(blocks[5]);
-			delay = Math.round(delay * 100.0) / 100.0;
+			delay = Integer.parseInt(blocks[5]) / 100.0;
 		} catch (java.lang.NumberFormatException nfe){
 			throw new RuntimeException(String.format("The delay provided was not a parse-able double: [%s]", blocks[5]));
 		}
 		
 		try {
-			duration = Double.parseDouble(blocks[6]);
-			duration = Math.round(duration * 100.0) / 100.0;
+			duration = Integer.parseInt(blocks[6]) / 100.0;
 			if (duration < 0){
 				throw new RuntimeException(String.format("The duration provided was negative. [%s]", blocks[6]));
 			}

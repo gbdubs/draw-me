@@ -12,10 +12,12 @@ public class GeneralProperties {
 		
 		rules.add(new CssProp(".dm", "position", "relative"));
 		rules.add(new CssProp(".dm:before", "content", "''"));
+		rules.add(new CssProp(".dm:before", "background", "black"));
 		rules.add(new CssProp(".dm:before", "display", "block"));
 		rules.add(new CssProp(".dm:before", "position", "absolute"));
 		rules.add(new CssProp(".dm:before", "z-index", "1"));
 		rules.add(new CssProp(".dm:after", "display", "block"));
+		rules.add(new CssProp(".dm:after", "background", "black"));
 		rules.add(new CssProp(".dm:after", "content", "''"));
 		rules.add(new CssProp(".dm:after", "position", "absolute"));
 		
