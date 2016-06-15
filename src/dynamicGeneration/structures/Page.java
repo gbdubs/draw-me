@@ -27,7 +27,6 @@ public class Page {
 		}
 	}
 	
-
 	public boolean selectorIsHelpful(String selector){
 		selector = selector.replace(":before", "");
 		selector = selector.replace(":after", "");
@@ -50,12 +49,9 @@ public class Page {
 		
 		List<CssProp> usefulProps = new ArrayList<CssProp>();
 		for (CssProp cp : props){
-			System.out.print(cp.selector + " - ");
 			if (selectorIsHelpful(cp.selector)){
 				usefulProps.add(cp);
-				System.out.println(" FOUND!");
 			}
-			System.out.println(" NOT FOUND!");
 		}
 
 		String propCss = CssProp.allPropsToCss(usefulProps);

@@ -102,9 +102,9 @@ public class InheritableProperties {
 		Set<AnimatedElement> uniqueColors = Filter.byBorderColor(p);
 		
 		for (AnimatedElement ae : uniqueColors){
-			String selector = String.format(".dm-border-color-%s", ColorUtility.toName(ae.borderColor));
+			String selector = String.format(".dm-border-color-%s", ColorUtility.toHex(ae.borderColor));
 			rules.add(new CssProp(selector, "border-color", ColorUtility.toHexCode(ae.borderColor)));
-			rules.add(new CssProp(selector+ " .dm", "border-color", ColorUtility.toHexCode(ae.borderColor)));
+			rules.add(new CssProp(selector+ " .dm", "border-color", ae.borderColor));
 			
 			rules.add(new CssProp(selector+".dm:before", "background", ColorUtility.toHexCode(ae.borderColor)));
 			rules.add(new CssProp(selector+" .dm:before", "background", ColorUtility.toHexCode(ae.borderColor)));

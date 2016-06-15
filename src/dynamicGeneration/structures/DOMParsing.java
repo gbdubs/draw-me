@@ -23,8 +23,6 @@ public class DOMParsing {
 			sb.append(s);
 			sb.append("\n");
 		}
-
-		System.out.println(sb.toString().trim());
 		
 		return sb.toString().trim();
 	}

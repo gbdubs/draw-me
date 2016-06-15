@@ -1,7 +1,7 @@
 
 /* DRAWMECSS - By Grady Ward (grady.b.ward@gmail.com)  */
-/* Input file = [DrawMeCss/index.html], Today = [Thu Jun 09 17:44:43 EDT 2016] */
-/* Version = 1.0 , Calculation Time = 0.697s */
+/* Input file = [DrawMeCss/index.html], Today = [Wed Jun 15 10:34:55 EDT 2016] */
+/* Version = [1.0] , Calculation Time = [0.803s] */
 
 .dm {
 	-moz-animation-delay: 0s;
@@ -26,6 +26,36 @@
 	border-style: solid;
 	border-width: 1px;
 	position: relative;
+}
+
+.dm-delay-1-00.dm {
+	-moz-animation-delay: 1.00s;
+	-webkit-animation-delay: 1.00s;
+	animation-delay: 1.00s;
+}
+
+.dm-delay-2-00.dm {
+	-moz-animation-delay: 2.00s;
+	-webkit-animation-delay: 2.00s;
+	animation-delay: 2.00s;
+}
+
+.dm-delay-3-00.dm {
+	-moz-animation-delay: 3.00s;
+	-webkit-animation-delay: 3.00s;
+	animation-delay: 3.00s;
+}
+
+.dm-delay-4-00.dm {
+	-moz-animation-delay: 4.00s;
+	-webkit-animation-delay: 4.00s;
+	animation-delay: 4.00s;
+}
+
+.dm-delay-5-00.dm {
+	-moz-animation-delay: 5.00s;
+	-webkit-animation-delay: 5.00s;
+	animation-delay: 5.00s;
 }
 
 .dm:before {
@@ -82,56 +112,113 @@
 	position: absolute;
 }
 
-.dm-border-width-10 .dm-border-color-0000FF .dm.dm-cw-ltr:after,
-.dm-border-width-10 .dm-border-color-FFFF00 .dm.dm-cw-ltr:after {
-	-moz-animation-name: dm-bl-10-after;
-	-webkit-animation-name: dm-bl-10-after;
-	animation-name: dm-bl-10-after;
+.dm-border-width-10 .dm-border-color-2196F3 .dm.dm-ccw-rtl:after,
+.dm-border-width-10 .dm-border-color-FFC107 .dm.dm-ccw-rtl:after {
+	-moz-animation-name: dm-br-10-after;
+	-webkit-animation-name: dm-br-10-after;
+	animation-name: dm-br-10-after;
 }
 
-.dm-border-width-10 .dm-border-color-00FF00 .dm.dm-ccw-lbr {
-	-moz-animation-name: dm-ccw-lbr-00FF00-transparent-transparent-transparent-000000;
-	-webkit-animation-name: dm-ccw-lbr-00FF00-transparent-transparent-transparent-000000;
-	animation-name: dm-ccw-lbr-00FF00-transparent-transparent-transparent-000000;
-}
-
-.dm-border-width-10 .dm-border-color-00FF00 .dm.dm-ccw-lbr:before,
-.dm-border-width-10 .dm-border-color-FF0000 .dm.dm-ccw-lbr:before {
+.dm-border-width-10 .dm-border-color-4CAF50 .dm.dm-ccw-lbr:before,
+.dm-border-width-10 .dm-border-color-F44336 .dm.dm-ccw-lbr:before {
 	-moz-animation-name: dm-ccw-lbr-10-before;
 	-webkit-animation-name: dm-ccw-lbr-10-before;
 	animation-name: dm-ccw-lbr-10-before;
 }
 
-.dm-border-width-10 .dm-border-color-FF0000 .dm.dm-ccw-lbr {
-	-moz-animation-name: dm-ccw-lbr-FF0000-transparent-transparent-transparent-000000;
-	-webkit-animation-name: dm-ccw-lbr-FF0000-transparent-transparent-transparent-000000;
-	animation-name: dm-ccw-lbr-FF0000-transparent-transparent-transparent-000000;
+.dm-border-width-10 .dm-border-color-4CAF50 .dm.dm-ccw-lbr {
+	-moz-animation-name: dm-ccw-lbr-4CAF50-transparent-transparent-transparent-000000;
+	-webkit-animation-name: dm-ccw-lbr-4CAF50-transparent-transparent-transparent-000000;
+	animation-name: dm-ccw-lbr-4CAF50-transparent-transparent-transparent-000000;
 }
 
-.dm-border-width-10 .dm-border-color-0000FF .dm.dm-cw-ltr {
-	-moz-animation-name: dm-cw-ltr-0000FF-transparent-transparent-transparent-000000;
-	-webkit-animation-name: dm-cw-ltr-0000FF-transparent-transparent-transparent-000000;
-	animation-name: dm-cw-ltr-0000FF-transparent-transparent-transparent-000000;
+.dm-border-width-10 .dm-border-color-F44336 .dm.dm-ccw-lbr {
+	-moz-animation-name: dm-ccw-lbr-F44336-transparent-transparent-transparent-000000;
+	-webkit-animation-name: dm-ccw-lbr-F44336-transparent-transparent-transparent-000000;
+	animation-name: dm-ccw-lbr-F44336-transparent-transparent-transparent-000000;
 }
 
-.dm-border-width-10 .dm-border-color-0000FF .dm.dm-cw-ltr:before,
-.dm-border-width-10 .dm-border-color-FFFF00 .dm.dm-cw-ltr:before {
-	-moz-animation-name: dm-cw-ltr-10-before;
-	-webkit-animation-name: dm-cw-ltr-10-before;
-	animation-name: dm-cw-ltr-10-before;
+.dm-border-width-10 .dm-border-color-2196F3 .dm.dm-ccw-rtl:before,
+.dm-border-width-10 .dm-border-color-FFC107 .dm.dm-ccw-rtl:before {
+	-moz-animation-name: dm-ccw-rtl-10-before;
+	-webkit-animation-name: dm-ccw-rtl-10-before;
+	animation-name: dm-ccw-rtl-10-before;
 }
 
-.dm-border-width-10 .dm-border-color-FFFF00 .dm.dm-cw-ltr {
-	-moz-animation-name: dm-cw-ltr-FFFF00-transparent-transparent-transparent-000000;
-	-webkit-animation-name: dm-cw-ltr-FFFF00-transparent-transparent-transparent-000000;
-	animation-name: dm-cw-ltr-FFFF00-transparent-transparent-transparent-000000;
+.dm-border-width-10 .dm-border-color-2196F3 .dm.dm-ccw-rtl {
+	-moz-animation-name: dm-ccw-rtl-2196F3-transparent-transparent-transparent-000000;
+	-webkit-animation-name: dm-ccw-rtl-2196F3-transparent-transparent-transparent-000000;
+	animation-name: dm-ccw-rtl-2196F3-transparent-transparent-transparent-000000;
 }
 
-.dm-border-width-10 .dm-border-color-00FF00 .dm.dm-ccw-lbr:after,
-.dm-border-width-10 .dm-border-color-FF0000 .dm.dm-ccw-lbr:after {
+.dm-border-width-10 .dm-border-color-FFC107 .dm.dm-ccw-rtl {
+	-moz-animation-name: dm-ccw-rtl-FFC107-transparent-transparent-transparent-000000;
+	-webkit-animation-name: dm-ccw-rtl-FFC107-transparent-transparent-transparent-000000;
+	animation-name: dm-ccw-rtl-FFC107-transparent-transparent-transparent-000000;
+}
+
+.dm-border-width-10 .dm-border-color-4CAF50 .dm.dm-ccw-lbr:after,
+.dm-border-width-10 .dm-border-color-F44336 .dm.dm-ccw-lbr:after {
 	-moz-animation-name: dm-tl-10-after;
 	-webkit-animation-name: dm-tl-10-after;
 	animation-name: dm-tl-10-after;
+}
+
+.dm-border-color-2196F3 .dm:after,
+.dm-border-color-2196F3 .dm:before {
+	background: #2196F3;
+}
+
+.dm-border-color-4CAF50 .dm:after,
+.dm-border-color-4CAF50 .dm:before {
+	background: #4CAF50;
+}
+
+.dm-border-color-F44336 .dm:after,
+.dm-border-color-F44336 .dm:before {
+	background: #F44336;
+}
+
+.dm-border-color-FFC107 .dm:after,
+.dm-border-color-FFC107 .dm:before {
+	background: #FFC107;
+}
+
+.dm-border-color-2196F3 {
+	border-color: #2196F3;
+}
+
+.dm-border-color-4CAF50 {
+	border-color: #4CAF50;
+}
+
+.dm-border-color-F44336 {
+	border-color: #F44336;
+}
+
+.dm-border-color-FFC107 {
+	border-color: #FFC107;
+}
+
+.dm-border-color-2196F3 .dm {
+	border-color: 2196F3;
+}
+
+.dm-border-color-4CAF50 .dm {
+	border-color: 4CAF50;
+}
+
+.dm-border-color-F44336 .dm {
+	border-color: F44336;
+}
+
+.dm-border-color-FFC107 .dm {
+	border-color: FFC107;
+}
+
+.dm-border-style-double,
+.dm-border-style-double .dm {
+	border-style: double;
 }
 
 .dm-border-width-10,
@@ -139,7 +226,7 @@
 	border-width: 10px;
 }
 
-@keyframes dm-bl-10-after {
+@keyframes dm-br-10-after {
 	0.00% {
 		height: 0;
 		width: 0;
@@ -147,14 +234,14 @@
 	1.00%, 100.00% {
 		bottom: -10px;
 		height: 10px;
-		left: -10px;
-		right: auto;
+		left: auto;
+		right: -10px;
 		top: auto;
 		width: 10px;
 	}
 }
 
-@-webkit-keyframes dm-bl-10-after {
+@-webkit-keyframes dm-br-10-after {
 	0.00% {
 		height: 0;
 		width: 0;
@@ -162,14 +249,14 @@
 	1.00%, 100.00% {
 		bottom: -10px;
 		height: 10px;
-		left: -10px;
-		right: auto;
+		left: auto;
+		right: -10px;
 		top: auto;
 		width: 10px;
 	}
 }
 
-@-moz-keyframes dm-bl-10-after {
+@-moz-keyframes dm-br-10-after {
 	0.00% {
 		height: 0;
 		width: 0;
@@ -177,125 +264,10 @@
 	1.00%, 100.00% {
 		bottom: -10px;
 		height: 10px;
-		left: -10px;
-		right: auto;
+		left: auto;
+		right: -10px;
 		top: auto;
 		width: 10px;
-	}
-}
-
-
-@keyframes dm-ccw-lbr-00FF00-transparent-transparent-transparent-000000 {
-	0.00% {
-		background-color: transparent;
-		border-bottom-color: transparent;
-		border-left-color: transparent;
-		border-right-color: transparent;
-		border-top-color: transparent;
-		color: transparent;
-	}
-	32.66% {
-		border-bottom-color: transparent;
-		border-left-color: transparent;
-		border-right-color: transparent;
-	}
-	32.67%, 65.32% {
-		border-bottom-color: transparent;
-		border-left-color: #00FF00;
-	}
-	65.33%, 97.99% {
-		border-bottom-color: #00FF00;
-		border-right-color: transparent;
-	}
-	70.00% {
-		background-color: transparent;
-		color: transparent;
-	}
-	98.00% {
-		border-bottom-color: #00FF00;
-		border-left-color: #00FF00;
-		border-right-color: #00FF00;
-	}
-	100.00% {
-		background-color: transparent;
-		border-top-color: transparent;
-		color: #000000;
-	}
-}
-
-@-webkit-keyframes dm-ccw-lbr-00FF00-transparent-transparent-transparent-000000 {
-	0.00% {
-		background-color: transparent;
-		border-bottom-color: transparent;
-		border-left-color: transparent;
-		border-right-color: transparent;
-		border-top-color: transparent;
-		color: transparent;
-	}
-	32.66% {
-		border-bottom-color: transparent;
-		border-left-color: transparent;
-		border-right-color: transparent;
-	}
-	32.67%, 65.32% {
-		border-bottom-color: transparent;
-		border-left-color: #00FF00;
-	}
-	65.33%, 97.99% {
-		border-bottom-color: #00FF00;
-		border-right-color: transparent;
-	}
-	70.00% {
-		background-color: transparent;
-		color: transparent;
-	}
-	98.00% {
-		border-bottom-color: #00FF00;
-		border-left-color: #00FF00;
-		border-right-color: #00FF00;
-	}
-	100.00% {
-		background-color: transparent;
-		border-top-color: transparent;
-		color: #000000;
-	}
-}
-
-@-moz-keyframes dm-ccw-lbr-00FF00-transparent-transparent-transparent-000000 {
-	0.00% {
-		background-color: transparent;
-		border-bottom-color: transparent;
-		border-left-color: transparent;
-		border-right-color: transparent;
-		border-top-color: transparent;
-		color: transparent;
-	}
-	32.66% {
-		border-bottom-color: transparent;
-		border-left-color: transparent;
-		border-right-color: transparent;
-	}
-	32.67%, 65.32% {
-		border-bottom-color: transparent;
-		border-left-color: #00FF00;
-	}
-	65.33%, 97.99% {
-		border-bottom-color: #00FF00;
-		border-right-color: transparent;
-	}
-	70.00% {
-		background-color: transparent;
-		color: transparent;
-	}
-	98.00% {
-		border-bottom-color: #00FF00;
-		border-left-color: #00FF00;
-		border-right-color: #00FF00;
-	}
-	100.00% {
-		background-color: transparent;
-		border-top-color: transparent;
-		color: #000000;
 	}
 }
 
@@ -496,7 +468,7 @@
 }
 
 
-@keyframes dm-ccw-lbr-FF0000-transparent-transparent-transparent-000000 {
+@keyframes dm-ccw-lbr-4CAF50-transparent-transparent-transparent-000000 {
 	0.00% {
 		background-color: transparent;
 		border-bottom-color: transparent;
@@ -512,10 +484,10 @@
 	}
 	32.67%, 65.32% {
 		border-bottom-color: transparent;
-		border-left-color: #FF0000;
+		border-left-color: #4CAF50;
 	}
 	65.33%, 97.99% {
-		border-bottom-color: #FF0000;
+		border-bottom-color: #4CAF50;
 		border-right-color: transparent;
 	}
 	70.00% {
@@ -523,9 +495,9 @@
 		color: transparent;
 	}
 	98.00% {
-		border-bottom-color: #FF0000;
-		border-left-color: #FF0000;
-		border-right-color: #FF0000;
+		border-bottom-color: #4CAF50;
+		border-left-color: #4CAF50;
+		border-right-color: #4CAF50;
 	}
 	100.00% {
 		background-color: transparent;
@@ -534,7 +506,7 @@
 	}
 }
 
-@-webkit-keyframes dm-ccw-lbr-FF0000-transparent-transparent-transparent-000000 {
+@-webkit-keyframes dm-ccw-lbr-4CAF50-transparent-transparent-transparent-000000 {
 	0.00% {
 		background-color: transparent;
 		border-bottom-color: transparent;
@@ -550,10 +522,10 @@
 	}
 	32.67%, 65.32% {
 		border-bottom-color: transparent;
-		border-left-color: #FF0000;
+		border-left-color: #4CAF50;
 	}
 	65.33%, 97.99% {
-		border-bottom-color: #FF0000;
+		border-bottom-color: #4CAF50;
 		border-right-color: transparent;
 	}
 	70.00% {
@@ -561,9 +533,9 @@
 		color: transparent;
 	}
 	98.00% {
-		border-bottom-color: #FF0000;
-		border-left-color: #FF0000;
-		border-right-color: #FF0000;
+		border-bottom-color: #4CAF50;
+		border-left-color: #4CAF50;
+		border-right-color: #4CAF50;
 	}
 	100.00% {
 		background-color: transparent;
@@ -572,7 +544,7 @@
 	}
 }
 
-@-moz-keyframes dm-ccw-lbr-FF0000-transparent-transparent-transparent-000000 {
+@-moz-keyframes dm-ccw-lbr-4CAF50-transparent-transparent-transparent-000000 {
 	0.00% {
 		background-color: transparent;
 		border-bottom-color: transparent;
@@ -588,10 +560,10 @@
 	}
 	32.67%, 65.32% {
 		border-bottom-color: transparent;
-		border-left-color: #FF0000;
+		border-left-color: #4CAF50;
 	}
 	65.33%, 97.99% {
-		border-bottom-color: #FF0000;
+		border-bottom-color: #4CAF50;
 		border-right-color: transparent;
 	}
 	70.00% {
@@ -599,9 +571,9 @@
 		color: transparent;
 	}
 	98.00% {
-		border-bottom-color: #FF0000;
-		border-left-color: #FF0000;
-		border-right-color: #FF0000;
+		border-bottom-color: #4CAF50;
+		border-left-color: #4CAF50;
+		border-right-color: #4CAF50;
 	}
 	100.00% {
 		background-color: transparent;
@@ -611,7 +583,7 @@
 }
 
 
-@keyframes dm-cw-ltr-0000FF-transparent-transparent-transparent-000000 {
+@keyframes dm-ccw-lbr-F44336-transparent-transparent-transparent-000000 {
 	0.00% {
 		background-color: transparent;
 		border-bottom-color: transparent;
@@ -621,35 +593,35 @@
 		color: transparent;
 	}
 	32.66% {
+		border-bottom-color: transparent;
 		border-left-color: transparent;
 		border-right-color: transparent;
-		border-top-color: transparent;
 	}
 	32.67%, 65.32% {
-		border-left-color: #0000FF;
-		border-top-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: #F44336;
 	}
 	65.33%, 97.99% {
+		border-bottom-color: #F44336;
 		border-right-color: transparent;
-		border-top-color: #0000FF;
 	}
 	70.00% {
 		background-color: transparent;
 		color: transparent;
 	}
 	98.00% {
-		border-left-color: #0000FF;
-		border-right-color: #0000FF;
-		border-top-color: #0000FF;
+		border-bottom-color: #F44336;
+		border-left-color: #F44336;
+		border-right-color: #F44336;
 	}
 	100.00% {
 		background-color: transparent;
-		border-bottom-color: transparent;
+		border-top-color: transparent;
 		color: #000000;
 	}
 }
 
-@-webkit-keyframes dm-cw-ltr-0000FF-transparent-transparent-transparent-000000 {
+@-webkit-keyframes dm-ccw-lbr-F44336-transparent-transparent-transparent-000000 {
 	0.00% {
 		background-color: transparent;
 		border-bottom-color: transparent;
@@ -659,35 +631,35 @@
 		color: transparent;
 	}
 	32.66% {
+		border-bottom-color: transparent;
 		border-left-color: transparent;
 		border-right-color: transparent;
-		border-top-color: transparent;
 	}
 	32.67%, 65.32% {
-		border-left-color: #0000FF;
-		border-top-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: #F44336;
 	}
 	65.33%, 97.99% {
+		border-bottom-color: #F44336;
 		border-right-color: transparent;
-		border-top-color: #0000FF;
 	}
 	70.00% {
 		background-color: transparent;
 		color: transparent;
 	}
 	98.00% {
-		border-left-color: #0000FF;
-		border-right-color: #0000FF;
-		border-top-color: #0000FF;
+		border-bottom-color: #F44336;
+		border-left-color: #F44336;
+		border-right-color: #F44336;
 	}
 	100.00% {
 		background-color: transparent;
-		border-bottom-color: transparent;
+		border-top-color: transparent;
 		color: #000000;
 	}
 }
 
-@-moz-keyframes dm-cw-ltr-0000FF-transparent-transparent-transparent-000000 {
+@-moz-keyframes dm-ccw-lbr-F44336-transparent-transparent-transparent-000000 {
 	0.00% {
 		background-color: transparent;
 		border-bottom-color: transparent;
@@ -697,36 +669,36 @@
 		color: transparent;
 	}
 	32.66% {
+		border-bottom-color: transparent;
 		border-left-color: transparent;
 		border-right-color: transparent;
-		border-top-color: transparent;
 	}
 	32.67%, 65.32% {
-		border-left-color: #0000FF;
-		border-top-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: #F44336;
 	}
 	65.33%, 97.99% {
+		border-bottom-color: #F44336;
 		border-right-color: transparent;
-		border-top-color: #0000FF;
 	}
 	70.00% {
 		background-color: transparent;
 		color: transparent;
 	}
 	98.00% {
-		border-left-color: #0000FF;
-		border-right-color: #0000FF;
-		border-top-color: #0000FF;
+		border-bottom-color: #F44336;
+		border-left-color: #F44336;
+		border-right-color: #F44336;
 	}
 	100.00% {
 		background-color: transparent;
-		border-bottom-color: transparent;
+		border-top-color: transparent;
 		color: #000000;
 	}
 }
 
 
-@keyframes dm-cw-ltr-10-before {
+@keyframes dm-ccw-rtl-10-before {
 	0.00% {
 		border-width: 0 0 0 0;
 	}
@@ -734,40 +706,40 @@
 		border-width: 10px 10px 0 0;
 		bottom: -10px;
 		height: 0;
-		left: -10px;
-		right: auto;
+		left: auto;
+		right: -10px;
 		top: auto;
 		width: 0;
 	}
 	33.65% {
 		bottom: -10px;
 		height: 100%;
-		left: -10px;
-		right: auto;
+		left: auto;
+		right: -10px;
 		top: auto;
 		width: 0;
 	}
 	33.66% {
 		bottom: auto;
 		height: 0;
-		left: -10px;
-		right: auto;
+		left: auto;
+		right: -10px;
 		top: -10px;
 		width: 0;
 	}
 	66.32% {
 		bottom: auto;
 		height: 0;
-		left: -10px;
-		right: auto;
+		left: auto;
+		right: -10px;
 		top: -10px;
 		width: 100%;
 	}
 	66.33% {
 		bottom: auto;
 		height: 0;
-		left: auto;
-		right: -10px;
+		left: -10px;
+		right: auto;
 		top: -10px;
 		width: 0;
 	}
@@ -775,8 +747,8 @@
 		border-width: 10px 10px 0 0;
 		bottom: auto;
 		height: 100%;
-		left: auto;
-		right: -10px;
+		left: -10px;
+		right: auto;
 		top: -10px;
 		width: 0;
 	}
@@ -784,14 +756,14 @@
 		border-width: 0 0 0 0;
 		bottom: -10px;
 		height: 10px;
-		left: auto;
-		right: -10px;
+		left: -10px;
+		right: auto;
 		top: auto;
 		width: 10px;
 	}
 }
 
-@-webkit-keyframes dm-cw-ltr-10-before {
+@-webkit-keyframes dm-ccw-rtl-10-before {
 	0.00% {
 		border-width: 0 0 0 0;
 	}
@@ -799,40 +771,40 @@
 		border-width: 10px 10px 0 0;
 		bottom: -10px;
 		height: 0;
-		left: -10px;
-		right: auto;
+		left: auto;
+		right: -10px;
 		top: auto;
 		width: 0;
 	}
 	33.65% {
 		bottom: -10px;
 		height: 100%;
-		left: -10px;
-		right: auto;
+		left: auto;
+		right: -10px;
 		top: auto;
 		width: 0;
 	}
 	33.66% {
 		bottom: auto;
 		height: 0;
-		left: -10px;
-		right: auto;
+		left: auto;
+		right: -10px;
 		top: -10px;
 		width: 0;
 	}
 	66.32% {
 		bottom: auto;
 		height: 0;
-		left: -10px;
-		right: auto;
+		left: auto;
+		right: -10px;
 		top: -10px;
 		width: 100%;
 	}
 	66.33% {
 		bottom: auto;
 		height: 0;
-		left: auto;
-		right: -10px;
+		left: -10px;
+		right: auto;
 		top: -10px;
 		width: 0;
 	}
@@ -840,8 +812,8 @@
 		border-width: 10px 10px 0 0;
 		bottom: auto;
 		height: 100%;
-		left: auto;
-		right: -10px;
+		left: -10px;
+		right: auto;
 		top: -10px;
 		width: 0;
 	}
@@ -849,14 +821,14 @@
 		border-width: 0 0 0 0;
 		bottom: -10px;
 		height: 10px;
-		left: auto;
-		right: -10px;
+		left: -10px;
+		right: auto;
 		top: auto;
 		width: 10px;
 	}
 }
 
-@-moz-keyframes dm-cw-ltr-10-before {
+@-moz-keyframes dm-ccw-rtl-10-before {
 	0.00% {
 		border-width: 0 0 0 0;
 	}
@@ -864,40 +836,40 @@
 		border-width: 10px 10px 0 0;
 		bottom: -10px;
 		height: 0;
-		left: -10px;
-		right: auto;
+		left: auto;
+		right: -10px;
 		top: auto;
 		width: 0;
 	}
 	33.65% {
 		bottom: -10px;
 		height: 100%;
-		left: -10px;
-		right: auto;
+		left: auto;
+		right: -10px;
 		top: auto;
 		width: 0;
 	}
 	33.66% {
 		bottom: auto;
 		height: 0;
-		left: -10px;
-		right: auto;
+		left: auto;
+		right: -10px;
 		top: -10px;
 		width: 0;
 	}
 	66.32% {
 		bottom: auto;
 		height: 0;
-		left: -10px;
-		right: auto;
+		left: auto;
+		right: -10px;
 		top: -10px;
 		width: 100%;
 	}
 	66.33% {
 		bottom: auto;
 		height: 0;
-		left: auto;
-		right: -10px;
+		left: -10px;
+		right: auto;
 		top: -10px;
 		width: 0;
 	}
@@ -905,8 +877,8 @@
 		border-width: 10px 10px 0 0;
 		bottom: auto;
 		height: 100%;
-		left: auto;
-		right: -10px;
+		left: -10px;
+		right: auto;
 		top: -10px;
 		width: 0;
 	}
@@ -914,15 +886,15 @@
 		border-width: 0 0 0 0;
 		bottom: -10px;
 		height: 10px;
-		left: auto;
-		right: -10px;
+		left: -10px;
+		right: auto;
 		top: auto;
 		width: 10px;
 	}
 }
 
 
-@keyframes dm-cw-ltr-FFFF00-transparent-transparent-transparent-000000 {
+@keyframes dm-ccw-rtl-2196F3-transparent-transparent-transparent-000000 {
 	0.00% {
 		background-color: transparent;
 		border-bottom-color: transparent;
@@ -937,21 +909,21 @@
 		border-top-color: transparent;
 	}
 	32.67%, 65.32% {
-		border-left-color: #FFFF00;
+		border-right-color: #2196F3;
 		border-top-color: transparent;
 	}
 	65.33%, 97.99% {
-		border-right-color: transparent;
-		border-top-color: #FFFF00;
+		border-left-color: transparent;
+		border-top-color: #2196F3;
 	}
 	70.00% {
 		background-color: transparent;
 		color: transparent;
 	}
 	98.00% {
-		border-left-color: #FFFF00;
-		border-right-color: #FFFF00;
-		border-top-color: #FFFF00;
+		border-left-color: #2196F3;
+		border-right-color: #2196F3;
+		border-top-color: #2196F3;
 	}
 	100.00% {
 		background-color: transparent;
@@ -960,7 +932,7 @@
 	}
 }
 
-@-webkit-keyframes dm-cw-ltr-FFFF00-transparent-transparent-transparent-000000 {
+@-webkit-keyframes dm-ccw-rtl-2196F3-transparent-transparent-transparent-000000 {
 	0.00% {
 		background-color: transparent;
 		border-bottom-color: transparent;
@@ -975,21 +947,21 @@
 		border-top-color: transparent;
 	}
 	32.67%, 65.32% {
-		border-left-color: #FFFF00;
+		border-right-color: #2196F3;
 		border-top-color: transparent;
 	}
 	65.33%, 97.99% {
-		border-right-color: transparent;
-		border-top-color: #FFFF00;
+		border-left-color: transparent;
+		border-top-color: #2196F3;
 	}
 	70.00% {
 		background-color: transparent;
 		color: transparent;
 	}
 	98.00% {
-		border-left-color: #FFFF00;
-		border-right-color: #FFFF00;
-		border-top-color: #FFFF00;
+		border-left-color: #2196F3;
+		border-right-color: #2196F3;
+		border-top-color: #2196F3;
 	}
 	100.00% {
 		background-color: transparent;
@@ -998,7 +970,7 @@
 	}
 }
 
-@-moz-keyframes dm-cw-ltr-FFFF00-transparent-transparent-transparent-000000 {
+@-moz-keyframes dm-ccw-rtl-2196F3-transparent-transparent-transparent-000000 {
 	0.00% {
 		background-color: transparent;
 		border-bottom-color: transparent;
@@ -1013,21 +985,136 @@
 		border-top-color: transparent;
 	}
 	32.67%, 65.32% {
-		border-left-color: #FFFF00;
+		border-right-color: #2196F3;
 		border-top-color: transparent;
 	}
 	65.33%, 97.99% {
-		border-right-color: transparent;
-		border-top-color: #FFFF00;
+		border-left-color: transparent;
+		border-top-color: #2196F3;
 	}
 	70.00% {
 		background-color: transparent;
 		color: transparent;
 	}
 	98.00% {
-		border-left-color: #FFFF00;
-		border-right-color: #FFFF00;
-		border-top-color: #FFFF00;
+		border-left-color: #2196F3;
+		border-right-color: #2196F3;
+		border-top-color: #2196F3;
+	}
+	100.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		color: #000000;
+	}
+}
+
+
+@keyframes dm-ccw-rtl-FFC107-transparent-transparent-transparent-000000 {
+	0.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: transparent;
+	}
+	32.66% {
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+	}
+	32.67%, 65.32% {
+		border-right-color: #FFC107;
+		border-top-color: transparent;
+	}
+	65.33%, 97.99% {
+		border-left-color: transparent;
+		border-top-color: #FFC107;
+	}
+	70.00% {
+		background-color: transparent;
+		color: transparent;
+	}
+	98.00% {
+		border-left-color: #FFC107;
+		border-right-color: #FFC107;
+		border-top-color: #FFC107;
+	}
+	100.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		color: #000000;
+	}
+}
+
+@-webkit-keyframes dm-ccw-rtl-FFC107-transparent-transparent-transparent-000000 {
+	0.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: transparent;
+	}
+	32.66% {
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+	}
+	32.67%, 65.32% {
+		border-right-color: #FFC107;
+		border-top-color: transparent;
+	}
+	65.33%, 97.99% {
+		border-left-color: transparent;
+		border-top-color: #FFC107;
+	}
+	70.00% {
+		background-color: transparent;
+		color: transparent;
+	}
+	98.00% {
+		border-left-color: #FFC107;
+		border-right-color: #FFC107;
+		border-top-color: #FFC107;
+	}
+	100.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		color: #000000;
+	}
+}
+
+@-moz-keyframes dm-ccw-rtl-FFC107-transparent-transparent-transparent-000000 {
+	0.00% {
+		background-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		color: transparent;
+	}
+	32.66% {
+		border-left-color: transparent;
+		border-right-color: transparent;
+		border-top-color: transparent;
+	}
+	32.67%, 65.32% {
+		border-right-color: #FFC107;
+		border-top-color: transparent;
+	}
+	65.33%, 97.99% {
+		border-left-color: transparent;
+		border-top-color: #FFC107;
+	}
+	70.00% {
+		background-color: transparent;
+		color: transparent;
+	}
+	98.00% {
+		border-left-color: #FFC107;
+		border-right-color: #FFC107;
+		border-top-color: #FFC107;
 	}
 	100.00% {
 		background-color: transparent;

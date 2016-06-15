@@ -10,16 +10,26 @@
   display: inline-block;
   margin: 10px;
 }
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
 
 .bracket-wrapper {
   position: relative;
-  width: 100vw;
   height: 100vh;
-  overflow-x: hidden;
+  display: inline-block;
+  width: 960px;
+  margin-top: Calc(50vh - 165px);
+  margin-left: 120px;
+  overflow-x: visible;
 }
 
 .bracket-wrapper > div {
-  display: inline-block;
+  display: block;
+  width: 960px;
   position: absolute;
 }
 
